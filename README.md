@@ -37,3 +37,5 @@ Made 2026-11-03 from 2 ElevenLabs takes (Day 1-15 = take A 19_12_44, Day 16-30 =
 
 Rebuild one reel: edit `reels/dNN/text.txt` or `spec.json` → `tools/captions.py N` → `tools/mix.py N` → `tools/register.py` → `engine/render.sh dNN` → `tools/verify.py N`.
 Follow handle on the end card: `HANDLE` in `engine/src/theme.ts`.
+# intgome
+# intgome
