@@ -1,0 +1,20 @@
+# Day 9 — Free hosting (keyword FREE)
+Day_9@day
+*Free_hosting{2}@title [Secret]@secretkw
+keyword *FREE@kw
+Hosting-ന്@host *പണം_കൊടുക്കാതെ{2}@nopay
+[website]@site *live_ആക്കാൻ{1}@live കഴിഞ്ഞാലോ?
+ചില projects-ന്@some അത് *സാധ്യമാണ്@possible
+[Vercel]@vercel [Netlify]@netlify [Cloudflare]{2}@cf
+പോലുള്ള platforms-ൽ@plat
+*free_allowances{2}@allow ലഭ്യമായേക്കാം
+Portfolio@port landing_page{2}@landing
+small *prototype@proto എന്നിവയ്ക്ക് useful ആണ്
+പക്ഷേ *secret@secret എന്താണെന്ന് അറിയാമോ?
+Free_plan{2}@plan തെരഞ്ഞെടുക്കുമ്പോൾ
+[Bandwidth]@bw [Compute]@compute
+[Commercial_restrictions]{2}@comm എന്നിവ *നോക്കണം@check
+Heavy_production_workloads-ന്{3}@heavy
+*Paid_hosting{2}@paid ആവശ്യമായേക്കാം
+Free_hosting_tools_list{4}@list *വേണോ?
+[FREE]@cta എന്ന് comment ചെയ്യൂ

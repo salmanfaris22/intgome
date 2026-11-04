@@ -1,0 +1,21 @@
+{
+  "n": 27, "title": "GITHUB", "keyword": "GITHUB", "pack": 2, "fx": "pop", "bg": "beams", "tail": 50,
+  "worlds": [[0, "violet"], [3.8, "gold"], [8.8, "teal"], [13.0, "blue"], [18.3, "red"], [22.6, "green"], [27.4, "violet"]],
+  "sections": [[0, "GITHUB"], [3.8, "1000s OF TOOLS"], [8.8, "AWESOME LISTS"], [13.0, "TOPICS"], [18.3, "THE SECRET"], [22.6, "CHECK FIRST"], [27.4, "COMMENT"]],
+  "ghosts": [[3.8, 8.8, "FREE"], [8.8, 18.3, "AWESOME"], [22.6, 27.4, "CHECK"]],
+  "poses": [[0, "wave", "happy"], [1.44, "present", "cool"], [3.1, "point", "wow"], [3.96, "think", "wow"], [7.84, "cheer", "happy"], [9.0, "present", "happy"], [11.0, "point", "cool"], [13.11, "presentL", "happy"], [15.5, "present", "happy"], [18.37, "stop", "sly"], [19.72, "point", "sly"], [22.7, "present", "neutral"], [24.78, "presentL", "neutral"], [27.51, "wave", "happy"], [29.42, "point", "cool"]],
+  "places": [[0, "c", 0.8], [3.8, "c", 0.78], [8.8, "l", 0.72], [13.0, "c", 0.74], [18.3, "r", 0.72], [22.6, "l", 0.72], [27.4, "c", 0.8]],
+  "hits": [0.1, "@kw", 3.8, "@free", "@awesome", "@topics", "@dont", "@check", "@cta"],
+  "cams": [[0, "push"], [3.8, "rise"], [8.8, "whipL"], [9.2, "tilt"], [13.0, "whipR"], [13.4, "orbitL"], [18.3, "roll"], [18.8, "push"], [22.6, "whipL"], [23.0, "drift"], [27.4, "punch"], [27.9, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 3.8, "kwAt": "@kw", "finish": "white"},
+    {"type": "stat", "a": 3.8, "b": 8.8, "t": "@thousands", "from": 0, "to": 1000, "suffix": "+", "label": "dev tools in one place", "icon": "branch", "finish": "white", "dur": 30},
+    {"type": "stamp", "a": "@free", "b": 8.8, "text": "FREE", "icon": "check", "color": "good", "y": 585},
+    {"type": "code", "a": 8.8, "b": 13.0, "title": "awesome-ai / README.md", "lines": [{"t": "@awesome", "text": "# Awesome AI"}, {"t": "@curated", "text": "- Ollama: run LLMs locally"}, {"t": "@explore", "text": "- n8n: workflow automation"}]},
+    {"type": "icons", "a": 13.0, "b": 18.3, "cols": 3, "items": [{"t": "@ai", "icon": "ai", "label": "AI"}, {"t": "@devops", "icon": "gear", "label": "DevOps"}, {"t": "@backend", "icon": "server", "label": "Backend"}, {"t": "@frontend", "icon": "image", "label": "Frontend"}, {"t": "@cyber", "icon": "shield", "label": "Security"}]},
+    {"type": "prop", "a": 18.3, "b": 22.6, "kind": "spark", "s": 1.0, "labels": [{"t": "@stars", "text": "Stars only?", "icon": "star", "x": 60, "y": 320, "tone": "gold"}]},
+    {"type": "stamp", "a": "@dont", "b": 22.6, "text": "DON'T PICK BY STARS", "color": "bad", "y": 585},
+    {"type": "list", "a": 22.6, "b": 27.4, "title": "CHECK BEFORE YOU USE", "items": [{"t": "@docs", "text": "Documentation", "icon": "doc"}, {"t": "@commits", "text": "Recent commits", "icon": "branch"}, {"t": "@security", "text": "Security", "icon": "shield"}, {"t": "@license", "text": "License", "icon": "doc", "tone": "good"}]},
+    {"type": "end", "a": 27.4, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

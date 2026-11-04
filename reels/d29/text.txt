@@ -1,0 +1,21 @@
+# Day 29 — Prompt injection (keyword HACK)
+Day_29@day
+*Prompt_injection{2}@title [Secret]@secretkw
+keyword *HACK@kw
+ഒരു [PDF]{3}@pdf *വായിച്ചതുകൊണ്ട്@read
+നിങ്ങളുടെ AI{2}@ai *തെറ്റായ_instruction{2}@wrong
+follow_ചെയ്താലോ?{2}@follow
+ഇതൊരു *real_security_risk{3}@risk ആണ്
+[Prompt_injection]{2}@pi
+[Untrusted]@untrusted documents@docs websites@sites
+external_data{2}@ext എന്നിവയിൽ
+*malicious_instructions{2}@mal ഉണ്ടാകാം
+[Vulnerable]@vuln AI_agents{3}@agents ചിലപ്പോൾ
+അവ *തെറ്റായി_follow{2}@wrongfollow ചെയ്യാം
+*Solution@solution എന്താണ്?
+[Trusted_instructions-ഉം]{2}@trusted
+*untrusted_content-ഉം{2}@untrusted2 വേർതിരിക്കുക@separate
+[Tool_permissions]{2}@perm *limit_ചെയ്യുക{2}@limit
+Sensitive_actions-ന്{2}@sens [approval]@approval നൽകുക
+AI_security_checklist{4}@guide *വേണോ?
+[HACK]@cta എന്ന് comment ചെയ്യൂ

@@ -1,0 +1,22 @@
+# Day 11 — Voice cloning (keyword VOICE)
+Day_11@day
+*Voice_cloning{2}@title [Secret]@secretkw
+keyword *VOICE@kw
+നിങ്ങൾ *സംസാരിക്കാതെ_തന്നെ{2}@nospeak
+നിങ്ങളുടെ സ്വന്തം [ശബ്ദത്തിൽ]@ownvoice
+*narration@narr generate_ചെയ്താലോ?{2}@gen
+[Text]@text മാത്രം കൊടുത്താൽ *മതി!@enough
+[AI_voice_cloning]{4}@vc ഉപയോഗിച്ച്
+*അനുമതിയോടെ@perm നൽകിയ voice_samples{2}@samples
+അടിസ്ഥാനമാക്കി
+*synthetic_speech{2}@synth generate ചെയ്യാം
+[Content_creation]{2}@content [Dubbing]@dub
+[Accessibility]@access എന്നിവയ്ക്ക്
+ഇത് *ഉപയോഗിക്കാം@use
+പക്ഷേ@but എല്ലാ language-ലും@lang
+*quality@quality ഒരുപോലെ ആയിരിക്കണമെന്നില്ല
+മറ്റൊരാളുടെ voice@other
+[permission]@nopermission ഇല്ലാതെ
+*impersonate_ചെയ്യരുത്!{2}@imp
+Voice_AI_tools{4}@tools *വേണോ?
+[VOICE]@cta എന്ന് comment ചെയ്യൂ

@@ -1,0 +1,21 @@
+{
+  "n": 8, "title": "AI AUTOMATION", "keyword": "AUTO", "pack": 1, "fx": "flip", "bg": "beams", "tail": 45,
+  "worlds": [[0, "green"], [4.0, "violet"], [8.4, "blue"], [15.1, "gold"], [16.7, "ember"], [22.4, "red"], [27.0, "teal"], [28.6, "green"]],
+  "sections": [[0, "AI AUTOMATION"], [4.0, "WHILE YOU SLEEP"], [8.4, "THE WORKFLOW"], [15.1, "ONE WORKFLOW"], [16.7, "N8N"], [22.4, "APPROVAL STEP"], [27.0, "FULL WORKFLOW"], [28.6, "COMMENT"]],
+  "ghosts": [[4.0, 8.4, "AUTO"], [8.4, 15.1, "FLOW"], [22.4, 27.0, "APPROVE"]],
+  "poses": [[0, "wave", "happy"], [1.12, "present", "cool"], [3.38, "point", "wow"], [4.09, "think", "neutral"], [6.0, "presentL", "wow"], [8.46, "point", "happy"], [9.9, "present", "happy"], [11.59, "presentL", "happy"], [13.29, "cheer", "happy"], [15.18, "hips", "cool"], [16.76, "point", "wow"], [17.71, "present", "happy"], [20.01, "presentL", "happy"], [22.49, "stop", "sly"], [23.06, "point", "neutral"], [25.0, "present", "happy"], [27.05, "wave", "happy"], [28.61, "point", "cool"], [30.14, "present", "happy"]],
+  "places": [[0, "c", 0.8], [4.0, "r", 0.72], [8.4, "c", 0.76], [15.1, "c", 0.82], [16.7, "c", 0.76], [22.4, "c", 0.76], [27.0, "l", 0.74], [28.6, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.0, "@auto", "@notif", "@wf", "@n8n", "@approve", "@cta"],
+  "cams": [[0, "push"], [4.0, "whipR"], [4.4, "orbitL"], [8.4, "rise"], [15.1, "punch"], [15.6, "push"], [16.7, "whipL"], [17.1, "orbitR"], [22.4, "tilt"], [27.0, "roll"], [27.5, "push"], [28.6, "punch"], [29.1, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.0, "kwAt": "@kw", "finish": "accent"},
+    {"type": "prop", "a": 4.0, "b": 8.4, "kind": "robot", "s": 1.05,
+     "labels": [{"t": "@sleep", "text": "While you sleep", "icon": "clock", "x": 50, "y": 320}, {"t": "@tasks", "text": "Repetitive tasks", "icon": "swap", "x": 560, "y": 560, "tone": "gold"}]},
+    {"type": "flow", "a": 8.4, "b": 15.1, "nodes": [{"t": "@enq", "icon": "mail", "label": "Enquiry"}, {"t": "@sum", "icon": "ai", "label": "AI summary"}, {"t": "@crm", "icon": "db", "label": "CRM update"}, {"t": "@notif", "icon": "users", "label": "Team alert", "tone": "good"}]},
+    {"type": "word", "a": 15.1, "b": 16.7, "text": "ONE WORKFLOW", "finish": "gold", "size": 1.1},
+    {"type": "cards", "a": 16.7, "b": 22.4, "layout": "row", "items": [{"t": "@n8n", "icon": "gear", "title": "n8n", "sub": "automation tool"}, {"t": "@connect", "icon": "link", "title": "Apps + AI", "sub": "connected", "tone": "good"}]},
+    {"type": "flow", "a": 22.4, "b": 27.0, "nodes": [{"t": "@cf", "icon": "ai", "label": "AI drafts reply"}, {"t": "@approve", "icon": "user", "label": "You approve", "tone": "gold"}, {"t": "@good", "icon": "mail", "label": "Sent", "tone": "good"}]},
+    {"type": "word", "a": 27.0, "b": 28.6, "text": "WORKFLOW?", "finish": "chrome", "size": 1.1},
+    {"type": "end", "a": 28.6, "b": 45, "kwAt": "@cta", "followAt": "@dm"}
+  ]
+}

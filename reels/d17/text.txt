@@ -1,0 +1,22 @@
+# Day 17 — Docker (keyword DOCKER)
+Day_17@day
+*Docker@title [Secret]@secretkw keyword
+*DOCKER@kw
+നിങ്ങളുടെ laptop-ൽ@laptop *working@working ആയ
+[application]@app server-ൽ@server
+*crash_ആയിട്ടുണ്ടോ?{1}@crash
+[Docker]@docker പഠിക്കേണ്ട ഒരു
+*കാരണം_ഇതാണ്!{2}@reason
+[Docker]@d2 ഉപയോഗിച്ച് application-ഉം@app2
+*dependencies-ഉം@deps
+[Container_image]-ആയി{2}@image *package@pkg ചെയ്യാം
+Different_environments-ൽ{2}@envs
+[consistency]@consist *മെച്ചപ്പെടുത്താൻ@improve
+ഇത് സഹായിക്കും
+പക്ഷേ@but
+Docker ഒരു *magic_solution{2}@magic അല്ല!
+[Configuration]@config [Networking]@net
+[Secrets]@secrets എന്നിവ
+ശരിയായി *manage_ചെയ്യണം{2}@manage
+Docker_starter_guide{3}@guide *വേണോ?
+[DOCKER]@cta എന്ന് comment ചെയ്യൂ

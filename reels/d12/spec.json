@@ -1,0 +1,23 @@
+{
+  "n": 12, "title": "AI VIDEO", "keyword": "VIDEO", "pack": 5, "fx": "mask", "bg": "beams", "tail": 50,
+  "worlds": [[0, "ember"], [4.2, "violet"], [7.5, "gold"], [10.2, "teal"], [15.2, "blue"], [19.5, "red"], [22.8, "green"], [27.0, "red"], [29.5, "ember"]],
+  "sections": [[0, "AI VIDEO"], [4.2, "PHOTO TO VIDEO"], [7.5, "MOTION"], [10.2, "IMAGE-TO-VIDEO AI"], [15.2, "USE CASES"], [19.5, "THE SECRET"], [22.8, "PRO RESULTS"], [27.0, "WATCH OUT"], [29.5, "COMMENT"]],
+  "ghosts": [[4.2, 7.5, "CINEMA"], [10.2, 15.2, "MOTION"], [22.8, 27.0, "CRAFT"]],
+  "poses": [[0, "wave", "happy"], [1.26, "present", "cool"], [3.48, "point", "wow"], [4.33, "think", "wow"], [5.8, "presentL", "happy"], [7.54, "point", "happy"], [8.65, "present", "happy"], [9.41, "cheer", "wow"], [10.34, "present", "happy"], [12.5, "point", "cool"], [15.28, "presentL", "happy"], [17.2, "present", "happy"], [19.53, "stop", "sly"], [20.13, "hips", "sly"], [22.84, "point", "neutral"], [24.5, "present", "happy"], [27.1, "stop", "wince"], [29.6, "wave", "happy"], [31.35, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.2, "r", 0.72], [7.5, "c", 0.76], [10.2, "c", 0.76], [15.2, "c", 0.76], [19.5, "l", 0.72], [22.8, "r", 0.72], [27.0, "c", 0.78], [29.5, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.2, "@cine", "@anim", "@clips", "@notonly", "@edit", "@mistakes", "@cta"],
+  "cams": [[0, "push"], [4.2, "whipL"], [4.6, "orbitR"], [7.5, "rise"], [10.2, "whipR"], [10.6, "orbitL"], [15.2, "tilt"], [19.5, "punch"], [20.0, "push"], [22.8, "whipL"], [23.2, "drift"], [27.0, "roll"], [27.5, "push"], [29.5, "punch"], [30.0, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.2, "kwAt": "@kw", "finish": "gold"},
+    {"type": "prop", "a": 4.2, "b": 7.5, "kind": "camera", "s": 1.1,
+     "labels": [{"t": "@photo", "text": "1 photo", "icon": "image", "x": 60, "y": 320}, {"t": "@cine", "text": "Cinematic video", "icon": "video", "x": 560, "y": 560, "tone": "good"}]},
+    {"type": "icons", "a": 7.5, "b": 10.2, "items": [{"t": "@cam", "icon": "video", "label": "Camera move"}, {"t": "@light", "icon": "star", "label": "Lighting"}, {"t": "@anim", "icon": "play", "label": "Animation"}]},
+    {"type": "flow", "a": 10.2, "b": 15.2, "nodes": [{"t": "@i2v", "icon": "image", "label": "Still image"}, {"t": "@models", "icon": "ai", "label": "Video AI"}, {"t": "@clips", "icon": "play", "label": "Short clip", "tone": "good"}]},
+    {"type": "cards", "a": 15.2, "b": 19.5, "layout": "row", "items": [{"t": "@prod", "icon": "video", "title": "Product", "sub": "videos"}, {"t": "@concept", "icon": "wand", "title": "Concepts", "sub": "creative"}, {"t": "@story", "icon": "layers", "title": "Storyboard", "sub": "frames"}]},
+    {"type": "chat", "a": 19.5, "b": 22.8, "model": "Video AI", "icon": "video", "q": {"t": "@prompt", "text": "cinematic drone shot, golden hour"}},
+    {"type": "stamp", "a": "@notonly", "b": 22.8, "text": "NOT JUST THE PROMPT", "color": "gold", "y": 640},
+    {"type": "list", "a": 22.8, "b": 27.0, "title": "PRO RESULTS NEED", "numbered": true, "items": [{"t": "@ref", "text": "Good reference image"}, {"t": "@motion", "text": "Controlled motion"}, {"t": "@edit", "text": "Editing", "tone": "good"}]},
+    {"type": "cards", "a": 27.0, "b": 29.5, "layout": "row", "items": [{"t": "@mistakes", "icon": "warning", "title": "Visual mistakes", "sub": "always review", "tone": "bad"}]},
+    {"type": "end", "a": 29.5, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

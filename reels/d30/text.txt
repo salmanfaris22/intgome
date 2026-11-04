@@ -1,0 +1,25 @@
+# Day 30 — Personal AI ecosystem (keyword SYSTEM)
+Day_30@day
+*Personal_AI_ecosystem{4}@title
+keyword *SYSTEM@kw
+കഴിഞ്ഞ [29_ദിവസമായി]{2}@days29
+നമ്മൾ പല *powerful_technologies{2}@tech കണ്ടു
+പക്ഷേ@but ഇവയെല്ലാം
+*combine_ചെയ്താലോ?{2}@combine
+[Local_LLM]{4}@llm ഉപയോഗിച്ച് *private_AI{3}@private
+[RAG]@rag ഉപയോഗിച്ച് *document_search{2}@docsearch
+[MCP]@mcp ഉപയോഗിച്ച് *tools_connect{2}@tools
+[n8n]{2}@n8n ഉപയോഗിച്ച് *automation@auto
+[AI_agents]{3}@agents ഉപയോഗിച്ച്
+*multi-step_tasks{3}@multi
+*Imagine_ചെയ്യൂ!{2}@imagine
+നിങ്ങളുടെ സ്വന്തം [data]@data
+നിങ്ങളുടെ സ്വന്തം [tools]@owntools
+നിങ്ങളുടെ ആവശ്യങ്ങൾക്കനുസരിച്ചുള്ള
+*AI_assistant{3}@assistant
+[Privacy]@privacy [Permissions]@perm [Testing]@testing
+എന്നിവ ശരിയായി *configure_ചെയ്യണം{2}@configure
+Complete *AI_ecosystem{3}@eco
+build ചെയ്യാനുള്ള [roadmap]@roadmap വേണോ?
+[SYSTEM]@cta എന്ന് comment ചെയ്യൂ
+Starting_resources{2}@res *DM_അയക്കാം{3}@dm

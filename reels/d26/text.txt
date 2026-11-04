@@ -1,0 +1,20 @@
+# Day 26 — Robotics AI (keyword ROBOT)
+Day_26@day
+*Robotics_AI{3}@title [Secret]@secretkw keyword
+*ROBOT@kw
+ഒരു [robot-നോട്]@robot
+"ആ_കപ്പെടുത്ത്{2}@cup *മേശയിൽ_വയ്ക്കൂ"{2}@table
+എന്ന് പറഞ്ഞാലോ?
+അത് *instruction@instr മനസ്സിലാക്കി
+*പ്രവർത്തിക്കാൻ@act ശ്രമിച്ചാലോ?
+[Vision_Language_Action]{3}@vla models@models
+Robotics_research-ൽ{2}@research ഉപയോഗിക്കുന്ന
+ഒരു *approach-ആണ്@approach
+[Visual_input-ഉം]{2}@visual *language_instructions-ഉം{2}@lang
+ഉപയോഗിച്ച് [robot_actions]{2}@actions
+*predict@predict ചെയ്യാൻ ഇത്തരം models ശ്രമിക്കുന്നു
+പക്ഷേ *real_world_safety{3}@safety
+[Unpredictable_environments]{2}@unpred എന്നിവ
+വലിയ *challenges-ആണ്@challenge
+Robotics_AI_research_links{5}@guide *വേണോ?
+[ROBOT]@cta എന്ന് comment ചെയ്യൂ

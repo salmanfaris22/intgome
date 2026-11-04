@@ -1,0 +1,23 @@
+{
+  "n": 25, "title": "AI SEARCH", "keyword": "SEARCH", "pack": 0, "fx": "type", "bg": "dots", "tail": 50,
+  "worlds": [[0, "teal"], [4.3, "blue"], [8.3, "violet"], [12.0, "teal"], [16.3, "gold"], [19.8, "red"], [24.6, "green"], [30.3, "teal"]],
+  "sections": [[0, "AI SEARCH"], [4.3, "SMART SEARCH"], [8.3, "NO EXACT WORDS"], [12.0, "SEMANTIC SEARCH"], [16.3, "EMBEDDINGS"], [19.8, "THE SECRET"], [24.6, "HYBRID SEARCH"], [30.3, "COMMENT"]],
+  "ghosts": [[4.3, 8.3, "SEARCH"], [12.0, 19.8, "MEANING"], [24.6, 30.3, "HYBRID"]],
+  "poses": [[0, "wave", "happy"], [1.5, "present", "cool"], [3.5, "point", "wow"], [4.43, "think", "wow"], [6.2, "presentL", "happy"], [8.4, "point", "happy"], [10.0, "present", "happy"], [12.11, "presentL", "neutral"], [14.0, "point", "cool"], [16.48, "present", "happy"], [19.88, "stop", "sly"], [21.29, "shrug", "neutral"], [24.71, "point", "happy"], [26.5, "present", "happy"], [28.42, "cheer", "happy"], [30.43, "wave", "happy"], [32.04, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.3, "r", 0.72], [8.3, "c", 0.76], [12.0, "c", 0.76], [16.3, "l", 0.72], [19.8, "c", 0.8], [24.6, "c", 0.76], [30.3, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.3, "@make", "@relevant", "@meaning", "@emb", "@notbest", "@hybrid", "@cta"],
+  "cams": [[0, "push"], [4.3, "whipL"], [4.7, "orbitR"], [8.3, "rise"], [12.0, "whipR"], [12.4, "orbitL"], [16.3, "tilt"], [19.8, "punch"], [20.3, "push"], [24.6, "roll"], [25.1, "drift"], [30.3, "punch"], [30.8, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.3, "kwAt": "@kw", "finish": "white"},
+    {"type": "prop", "a": 4.3, "b": 8.3, "kind": "magnifier", "s": 1.1, "labels": [{"t": "@google", "text": "Like Google", "icon": "search", "x": 60, "y": 320}, {"t": "@smart", "text": "Smart search", "icon": "ai", "x": 640, "y": 560, "tone": "good"}]},
+    {"type": "chat", "a": 8.3, "b": 12.0, "model": "Search", "icon": "search", "q": {"t": "@exact", "text": "cheap phone good camera"}, "ans": {"t": "@relevant", "text": "Budget phones with the best cameras"}},
+    {"type": "compare", "a": 12.0, "b": 16.3, "lt": "@semantic", "rt": "@meaning", "vs": "VS",
+     "left": {"title": "Keyword", "icon": "search", "sub": "matches words"},
+     "right": {"title": "Semantic", "icon": "ai", "sub": "matches meaning", "tone": "good"}},
+    {"type": "code", "a": 16.3, "b": 19.8, "title": "embeddings.py", "lines": [{"t": "@emb", "text": "v = embed('cheap phone')"}, {"t": "@emb+0.6", "text": "# [0.12, -0.48, 0.91, ...]"}, {"t": "@related", "text": "similar = top_k(v, docs)"}]},
+    {"type": "word", "a": 19.8, "b": 24.6, "text": "SEMANTIC\nONLY?", "finish": "accent", "size": 1.2},
+    {"type": "stamp", "a": "@notbest", "b": 24.6, "text": "NOT ALWAYS BEST", "color": "bad", "y": 585},
+    {"type": "flow", "a": 24.6, "b": 30.3, "nodes": [{"t": "@kws", "icon": "search", "label": "Keyword search"}, {"t": "@ss", "icon": "ai", "label": "Semantic search"}, {"t": "@hybrid", "icon": "layers", "label": "Hybrid search", "tone": "good"}]},
+    {"type": "end", "a": 30.3, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

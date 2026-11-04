@@ -1,0 +1,21 @@
+{
+  "n": 24, "title": "CLOUD COST", "keyword": "CLOUD", "pack": 5, "fx": "flip", "bg": "grid", "tail": 50,
+  "worlds": [[0, "blue"], [3.9, "red"], [6.6, "teal"], [9.4, "green"], [17.9, "gold"], [22.4, "violet"], [25.3, "blue"]],
+  "sections": [[0, "CLOUD COST"], [3.9, "BILL RISING?"], [6.6, "NO NEW SERVER"], [9.4, "4 FIXES"], [17.9, "THE SECRET"], [22.4, "COMPARE"], [25.3, "COMMENT"]],
+  "ghosts": [[3.9, 9.4, "BILL"], [9.4, 17.9, "SAVE"], [17.9, 22.4, "SERVERLESS"]],
+  "poses": [[0, "wave", "happy"], [1.37, "present", "cool"], [3.37, "point", "wow"], [4.02, "shrug", "shock"], [6.67, "point", "cool"], [9.49, "stop", "neutral"], [11.29, "present", "happy"], [13.29, "presentL", "happy"], [14.7, "point", "cool"], [18.0, "stop", "sly"], [18.5, "hips", "sly"], [19.5, "shrug", "neutral"], [22.54, "point", "neutral"], [25.43, "wave", "happy"], [27.1, "point", "cool"]],
+  "places": [[0, "c", 0.8], [3.9, "r", 0.72], [6.6, "l", 0.72], [9.4, "r", 0.72], [17.9, "c", 0.76], [22.4, "c", 0.76], [25.3, "c", 0.8]],
+  "hits": [0.1, "@kw", 3.9, "@rising", "@reduce", "@eval", "@cheaper", "@compare", "@cta"],
+  "cams": [[0, "push"], [3.9, "whipR"], [4.3, "tilt"], [6.6, "whipL"], [7.0, "orbitR"], [9.4, "rise"], [17.9, "punch"], [18.4, "orbitL"], [22.4, "whipR"], [22.8, "push"], [25.3, "punch"], [25.8, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 3.9, "kwAt": "@kw", "finish": "accent"},
+    {"type": "bars", "a": 3.9, "b": 6.6, "title": "CLOUD BILL (EXAMPLE)", "items": [{"label": "January", "v": 40, "t": "@bill", "text": "₹12k"}, {"label": "February", "v": 62, "t": "@bill+0.35", "text": "₹18k", "tone": "gold"}, {"label": "March", "v": 92, "t": "@rising", "text": "₹27k", "tone": "bad"}]},
+    {"type": "prop", "a": 6.6, "b": 9.4, "kind": "cloud", "s": 1.1, "labels": [{"t": "@nobuy", "text": "No new server", "icon": "server", "x": 60, "y": 320, "tone": "good"}, {"t": "@reduce", "text": "Lower cost", "icon": "rupee", "x": 640, "y": 560, "tone": "good", "solid": true}]},
+    {"type": "list", "a": 9.4, "b": 17.9, "title": "CUT THE BILL", "numbered": true, "items": [{"t": "@unused", "text": "Stop unused resources"}, {"t": "@right", "text": "Right-size instances"}, {"t": "@cache", "text": "Add caching"}, {"t": "@sl", "text": "Try serverless", "tone": "good"}]},
+    {"type": "compare", "a": 17.9, "b": 22.4, "lt": "@sl2", "rt": "@cheaper", "vs": "?",
+     "left": {"title": "Serverless", "icon": "bolt", "sub": "spiky, low traffic", "tone": "good"},
+     "right": {"title": "Always-on", "icon": "server", "sub": "steady high traffic", "tone": "gold"}},
+    {"type": "flow", "a": 22.4, "b": 25.3, "nodes": [{"t": "@pattern", "icon": "graph", "label": "Your traffic"}, {"t": "@compare", "icon": "rupee", "label": "Compare cost"}, {"t": "@compare+0.6", "icon": "check", "label": "Pick the cheaper", "tone": "good"}]},
+    {"type": "end", "a": 25.3, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

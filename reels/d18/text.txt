@@ -1,0 +1,25 @@
+# Day 18 — AI memory (keyword MEMORY)
+Day_18@day
+*AI_memory{3}@title [Secret]@secretkw keyword
+*MEMORY@kw
+നിങ്ങൾ *കഴിഞ്ഞ_മാസം{2}@month
+AI-യോട്{3}@ai പറഞ്ഞ കാര്യങ്ങൾ@things
+അത് *ഓർത്തിരുന്നാലോ?@remember
+അതും നിങ്ങളുടെ [projects-നുവേണ്ടി]@projects
+*AI_memory_systems{4}@sys ഉപയോഗിച്ച്
+[relevant_information]{2}@rel store ചെയ്ത്@store
+പിന്നീട് *retrieve_ചെയ്യാം{2}@retrieve
+[Short-term_memory]{2}@short
+Current_conversation_context{3}@ctx
+*maintain@maintain ചെയ്യാൻ സഹായിക്കും
+[Long-term_memory]{2}@long
+Useful_information{2}@useful *പിന്നീട്@later
+ഉപയോഗിക്കാൻ സഹായിക്കും
+AI_agents-ന്{2}@agents ഇതെന്തുകൊണ്ട് *important?@why
+ഓരോ task-ഉം@task
+*zero-യിൽ@zero നിന്നു തുടങ്ങേണ്ടതില്ല!
+പക്ഷേ@but
+[Privacy]@privacy [Deletion_controls]{2}@delete
+*പ്രധാനമാണ്@important
+AI_memory_guide{4}@guide *വേണോ?
+[MEMORY]@cta എന്ന് comment ചെയ്യൂ

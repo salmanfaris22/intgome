@@ -1,0 +1,499 @@
+{
+ "n": 5,
+ "title": "COMPUTER USE AI",
+ "keyword": "AGENT",
+ "pack": 4,
+ "tail": 45,
+ "worlds": [
+  [
+   0,
+   "violet"
+  ],
+  [
+   4.3,
+   "blue"
+  ],
+  [
+   7.7,
+   "teal"
+  ],
+  [
+   11.4,
+   "gold"
+  ],
+  [
+   13.6,
+   "violet"
+  ],
+  [
+   18.9,
+   "green"
+  ],
+  [
+   23.6,
+   "red"
+  ],
+  [
+   26.9,
+   "ember"
+  ],
+  [
+   31.3,
+   "blue"
+  ],
+  [
+   33.8,
+   "violet"
+  ]
+ ],
+ "sections": [
+  [
+   0,
+   "COMPUTER USE AI"
+  ],
+  [
+   4.3,
+   "AI IN CONTROL"
+  ],
+  [
+   7.7,
+   "WHAT IT DOES"
+  ],
+  [
+   11.4,
+   "NOT JUST FUTURE"
+  ],
+  [
+   13.6,
+   "HOW AGENTS WORK"
+  ],
+  [
+   18.9,
+   "EXAMPLE"
+  ],
+  [
+   23.6,
+   "PERMISSIONS"
+  ],
+  [
+   26.9,
+   "HUMAN APPROVAL"
+  ],
+  [
+   31.3,
+   "HOW IT WORKS"
+  ],
+  [
+   33.8,
+   "COMMENT"
+  ]
+ ],
+ "ghosts": [
+  [
+   4.3,
+   7.7,
+   "AGENT"
+  ],
+  [
+   13.6,
+   18.9,
+   "AUTOMATE"
+  ],
+  [
+   26.9,
+   31.3,
+   "APPROVE"
+  ]
+ ],
+ "poses": [
+  [
+   0,
+   "wave",
+   "happy"
+  ],
+  [
+   1.22,
+   "present",
+   "cool"
+  ],
+  [
+   3.48,
+   "point",
+   "wow"
+  ],
+  [
+   4.33,
+   "think",
+   "wow"
+  ],
+  [
+   7.77,
+   "point",
+   "happy"
+  ],
+  [
+   8.95,
+   "presentL",
+   "happy"
+  ],
+  [
+   10.02,
+   "present",
+   "happy"
+  ],
+  [
+   11.48,
+   "hips",
+   "cool"
+  ],
+  [
+   13.71,
+   "present",
+   "happy"
+  ],
+  [
+   16.0,
+   "point",
+   "cool"
+  ],
+  [
+   18.99,
+   "idle",
+   "neutral"
+  ],
+  [
+   19.96,
+   "presentL",
+   "happy"
+  ],
+  [
+   23.71,
+   "stop",
+   "wince"
+  ],
+  [
+   26.95,
+   "stop",
+   "sly"
+  ],
+  [
+   29.0,
+   "point",
+   "neutral"
+  ],
+  [
+   31.36,
+   "think",
+   "neutral"
+  ],
+  [
+   33.85,
+   "point",
+   "cool"
+  ],
+  [
+   35.42,
+   "present",
+   "happy"
+  ]
+ ],
+ "places": [
+  [
+   0,
+   "c",
+   0.8
+  ],
+  [
+   4.3,
+   "r",
+   0.72
+  ],
+  [
+   7.7,
+   "l",
+   0.72
+  ],
+  [
+   11.4,
+   "c",
+   0.82
+  ],
+  [
+   13.6,
+   "c",
+   0.76
+  ],
+  [
+   18.9,
+   "r",
+   0.72
+  ],
+  [
+   23.6,
+   "c",
+   0.78
+  ],
+  [
+   26.9,
+   "r",
+   0.72
+  ],
+  [
+   31.3,
+   "l",
+   0.74
+  ],
+  [
+   33.8,
+   "c",
+   0.8
+  ]
+ ],
+ "hits": [
+  0.1,
+  "@kw",
+  4.3,
+  "@control",
+  "@future",
+  "@auto",
+  "@unlim",
+  "@must",
+  "@cta"
+ ],
+ "cams": [
+  [
+   0,
+   "push"
+  ],
+  [
+   4.3,
+   "whipL"
+  ],
+  [
+   4.7,
+   "orbitR"
+  ],
+  [
+   7.7,
+   "rise"
+  ],
+  [
+   11.4,
+   "punch"
+  ],
+  [
+   11.9,
+   "push"
+  ],
+  [
+   13.6,
+   "whipR"
+  ],
+  [
+   14.0,
+   "orbitL"
+  ],
+  [
+   18.9,
+   "tilt"
+  ],
+  [
+   23.6,
+   "roll"
+  ],
+  [
+   24.1,
+   "push"
+  ],
+  [
+   26.9,
+   "whipL"
+  ],
+  [
+   27.3,
+   "drift"
+  ],
+  [
+   31.3,
+   "orbitR"
+  ],
+  [
+   33.8,
+   "punch"
+  ],
+  [
+   34.3,
+   "pull"
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "a": 0,
+   "b": 4.3,
+   "kwAt": "@kw",
+   "finish": "gold"
+  },
+  {
+   "type": "prop",
+   "a": 4.3,
+   "b": 7.7,
+   "kind": "laptop",
+   "screen": {
+    "icon": "robot",
+    "title": "AI in control"
+   },
+   "labels": [
+    {
+     "t": "@ai",
+     "text": "AI drives",
+     "icon": "robot",
+     "x": 650,
+     "y": 330
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "a": 7.7,
+   "b": 11.4,
+   "title": "THE AGENT CAN",
+   "items": [
+    {
+     "t": "@click",
+     "text": "Click the mouse",
+     "icon": "wand"
+    },
+    {
+     "t": "@browser",
+     "text": "Open the browser",
+     "icon": "globe"
+    },
+    {
+     "t": "@forms",
+     "text": "Fill forms",
+     "icon": "doc"
+    }
+   ]
+  },
+  {
+   "type": "word",
+   "a": 11.4,
+   "b": 13.6,
+   "text": "TODAY",
+   "finish": "gold"
+  },
+  {
+   "type": "flow",
+   "a": 13.6,
+   "b": 18.9,
+   "nodes": [
+    {
+     "t": "@agents",
+     "icon": "eye",
+     "label": "Sees screen"
+    },
+    {
+     "t": "@gui",
+     "icon": "ai",
+     "label": "Decides"
+    },
+    {
+     "t": "@auto",
+     "icon": "wand",
+     "label": "Clicks & types",
+     "tone": "good"
+    }
+   ]
+  },
+  {
+   "type": "prop",
+   "a": 18.9,
+   "b": 23.6,
+   "kind": "doc",
+   "s": 1.0,
+   "labels": [
+    {
+     "t": "@web",
+     "text": "From websites",
+     "icon": "globe",
+     "x": 60,
+     "y": 320
+    },
+    {
+     "t": "@reports",
+     "text": "Report ready",
+     "icon": "check",
+     "x": 640,
+     "y": 560,
+     "tone": "good"
+    }
+   ]
+  },
+  {
+   "type": "prop",
+   "a": 23.6,
+   "b": 26.9,
+   "kind": "lock",
+   "s": 1.1
+  },
+  {
+   "type": "stamp",
+   "a": "@unlim",
+   "b": 26.9,
+   "text": "NO FULL ACCESS",
+   "icon": "x",
+   "color": "bad",
+   "y": 600
+  },
+  {
+   "type": "list",
+   "a": 26.9,
+   "b": 31.3,
+   "title": "SENSITIVE ACTIONS",
+   "items": [
+    {
+     "t": "@pay",
+     "text": "Payments",
+     "icon": "money",
+     "tone": "bad"
+    },
+    {
+     "t": "@acct",
+     "text": "Account changes",
+     "icon": "user",
+     "tone": "bad"
+    },
+    {
+     "t": "@human",
+     "text": "Human approves",
+     "icon": "check",
+     "tone": "good"
+    }
+   ]
+  },
+  {
+   "type": "prop",
+   "a": 31.3,
+   "b": 33.8,
+   "kind": "robot",
+   "s": 1.0,
+   "labels": [
+    {
+     "t": "@how",
+     "text": "How it works?",
+     "icon": "gear",
+     "x": 600,
+     "y": 340
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "a": 33.8,
+   "b": 45,
+   "kwAt": "@cta",
+   "followAt": "@dm"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+  "n": 20, "title": "CLOUD GPU", "keyword": "GPU", "pack": 1, "fx": "mask", "bg": "stars", "tail": 50,
+  "worlds": [[0, "green"], [4.4, "red"], [7.1, "violet"], [10.0, "blue"], [13.5, "teal"], [18.0, "gold"], [19.5, "red"], [23.1, "blue"], [25.2, "green"]],
+  "sections": [[0, "CLOUD GPU"], [4.4, "NO GPU?"], [7.1, "BIG MODELS"], [10.0, "RENT POWER"], [13.5, "USE CASES"], [18.0, "THE SECRET"], [19.5, "IDLE = BILLED"], [23.1, "MONITOR"], [25.2, "COMMENT"]],
+  "ghosts": [[4.4, 10.0, "GPU"], [13.5, 18.0, "COMPUTE"], [19.5, 23.1, "IDLE"]],
+  "poses": [[0, "wave", "happy"], [1.31, "present", "cool"], [3.61, "point", "wow"], [4.56, "shrug", "wince"], [7.2, "cheer", "happy"], [10.16, "present", "happy"], [12.0, "point", "cool"], [13.59, "presentL", "happy"], [15.5, "present", "happy"], [18.05, "stop", "sly"], [18.57, "hips", "sly"], [19.55, "point", "shock"], [21.5, "shrug", "wince"], [23.23, "point", "neutral"], [25.33, "wave", "happy"], [26.73, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.4, "r", 0.72], [7.1, "c", 0.76], [10.0, "c", 0.76], [13.5, "c", 0.76], [18.0, "l", 0.72], [19.5, "c", 0.78], [23.1, "r", 0.72], [25.2, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.4, "@exp", "@rent", "@imgen", "@secret", "@charge", "@monitor", "@cta"],
+  "cams": [[0, "push"], [4.4, "whipL"], [4.8, "drift"], [7.1, "punch"], [7.6, "orbitR"], [10.0, "whipR"], [10.4, "push"], [13.5, "rise"], [18.0, "roll"], [18.5, "push"], [19.5, "tilt"], [23.1, "whipL"], [23.5, "drift"], [25.2, "punch"], [25.7, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.4, "kwAt": "@kw", "finish": "chrome"},
+    {"type": "prop", "a": 4.4, "b": 7.1, "kind": "laptop", "screen": {"icon": "x", "title": "No GPU"}, "labels": [{"t": "@gpu", "text": "Weak GPU", "icon": "chip", "x": 640, "y": 330, "tone": "bad"}]},
+    {"type": "prop", "a": 7.1, "b": 10.0, "kind": "gpu", "s": 1.15, "labels": [{"t": "@models", "text": "Big AI models", "icon": "ai", "x": 60, "y": 320, "tone": "good"}]},
+    {"type": "flow", "a": 10.0, "b": 13.5, "nodes": [{"t": "@cloud", "icon": "laptop", "label": "Your laptop"}, {"t": "@remote", "icon": "cloud", "label": "Cloud GPU"}, {"t": "@rent", "icon": "rupee", "label": "Rent the power", "tone": "good"}]},
+    {"type": "icons", "a": 13.5, "b": 18.0, "items": [{"t": "@inf", "icon": "ai", "label": "AI inference"}, {"t": "@mexp", "icon": "wand", "label": "Experiments"}, {"t": "@imgen", "icon": "image", "label": "Image gen"}]},
+    {"type": "prop", "a": 18.0, "b": 19.5, "kind": "coin", "s": 1.0, "labels": [{"t": "@secret", "text": "The secret", "icon": "key", "x": 330, "y": 640, "tone": "gold", "solid": true}]},
+    {"type": "stat", "a": 19.5, "b": 23.1, "t": "@idle", "from": 0, "to": 4800, "prefix": "₹", "label": "idle GPU · still billing", "icon": "clock", "finish": "gold", "dur": 60},
+    {"type": "stamp", "a": "@charge", "b": 23.1, "text": "STILL CHARGED", "icon": "warning", "color": "bad", "y": 585},
+    {"type": "bars", "a": 23.1, "b": 25.2, "title": "MONITOR USAGE (EXAMPLE)", "items": [{"label": "GPU busy", "v": 30, "t": "@usage", "tone": "good"}, {"label": "GPU idle, billed", "v": 70, "t": "@monitor", "tone": "bad"}]},
+    {"type": "end", "a": 25.2, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

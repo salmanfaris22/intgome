@@ -1,0 +1,19 @@
+{
+  "n": 26, "title": "ROBOTICS AI", "keyword": "ROBOT", "pack": 1, "fx": "marker", "bg": "rings", "tail": 50,
+  "worlds": [[0, "blue"], [4.4, "teal"], [8.3, "violet"], [11.2, "gold"], [15.7, "blue"], [21.6, "red"], [27.0, "blue"]],
+  "sections": [[0, "ROBOTICS AI"], [4.4, "TALK TO A ROBOT"], [8.3, "IT ACTS"], [11.2, "VLA MODELS"], [15.7, "SEE + READ = ACT"], [21.6, "CHALLENGES"], [27.0, "COMMENT"]],
+  "ghosts": [[4.4, 11.2, "ROBOT"], [11.2, 21.6, "ACTION"], [21.6, 27.0, "SAFETY"]],
+  "poses": [[0, "wave", "happy"], [1.42, "present", "cool"], [3.65, "point", "wow"], [4.58, "present", "happy"], [5.81, "point", "cool"], [8.39, "think", "wow"], [11.32, "present", "happy"], [13.5, "presentL", "happy"], [15.79, "point", "neutral"], [18.5, "present", "cool"], [21.82, "stop", "wince"], [23.82, "shrug", "neutral"], [27.16, "wave", "happy"], [29.37, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.4, "r", 0.72], [8.3, "c", 0.76], [11.2, "c", 0.76], [15.7, "c", 0.76], [21.6, "l", 0.72], [27.0, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.4, "@table", "@act", "@models", "@predict", "@challenge", "@cta"],
+  "cams": [[0, "push"], [4.4, "whipL"], [4.8, "orbitR"], [8.3, "rise"], [11.2, "punch"], [11.7, "orbitL"], [15.7, "whipR"], [16.1, "drift"], [21.6, "roll"], [22.1, "push"], [27.0, "punch"], [27.5, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.4, "kwAt": "@kw", "finish": "chrome"},
+    {"type": "prop", "a": 4.4, "b": 8.3, "kind": "robot", "s": 1.05, "labels": [{"t": "@cup", "text": "Put the cup on the table", "icon": "chat", "x": 120, "y": 640, "solid": true}]},
+    {"type": "flow", "a": 8.3, "b": 11.2, "nodes": [{"t": "@instr", "icon": "chat", "label": "Instruction"}, {"t": "@act", "icon": "robot", "label": "Robot acts", "tone": "good"}]},
+    {"type": "icons", "a": 11.2, "b": 15.7, "items": [{"t": "@vla", "icon": "eye", "label": "Vision"}, {"t": "@vla+0.4", "icon": "chat", "label": "Language"}, {"t": "@models", "icon": "wand", "label": "Action", "tone": "good"}]},
+    {"type": "flow", "a": 15.7, "b": 21.6, "nodes": [{"t": "@visual", "icon": "video", "label": "Camera view"}, {"t": "@lang", "icon": "chat", "label": "Instruction"}, {"t": "@predict", "icon": "robot", "label": "Next action", "tone": "good"}]},
+    {"type": "list", "a": 21.6, "b": 27.0, "title": "BIG CHALLENGES", "items": [{"t": "@safety", "text": "Real-world safety", "icon": "shield", "tone": "gold"}, {"t": "@unpred", "text": "Unpredictable places", "icon": "warning", "tone": "gold"}]},
+    {"type": "end", "a": 27.0, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "n": 7, "title": "MCP", "keyword": "MCP", "pack": 0, "fx": "mask", "bg": "rings", "tail": 50,
+  "worlds": [[0, "blue"], [3.9, "violet"], [8.85, "gold"], [12.9, "teal"], [18.0, "blue"], [22.85, "green"], [28.5, "red"], [30.9, "blue"]],
+  "sections": [[0, "MCP"], [3.9, "CONNECT EVERYTHING"], [8.85, "THE STANDARD"], [12.9, "HOW IT CONNECTS"], [18.0, "EXAMPLE"], [22.85, "THE POWER"], [28.5, "PERMISSIONS"], [30.9, "COMMENT"]],
+  "ghosts": [[3.9, 8.85, "CONNECT"], [12.9, 18.0, "TOOLS"], [22.85, 28.5, "STANDARD"]],
+  "poses": [[0, "wave", "happy"], [1.16, "present", "cool"], [3.03, "point", "wow"], [3.99, "think", "wow"], [5.91, "presentL", "happy"], [8.9, "hips", "cool"], [10.38, "point", "happy"], [11.19, "present", "happy"], [12.9, "presentL", "happy"], [15.5, "point", "cool"], [18.06, "idle", "neutral"], [19.06, "present", "happy"], [22.88, "cheer", "wow"], [24.25, "point", "happy"], [26.5, "present", "cool"], [28.62, "stop", "wince"], [30.97, "wave", "happy"], [32.47, "point", "cool"]],
+  "places": [[0, "c", 0.8], [3.9, "c", 0.76], [8.85, "l", 0.72], [12.9, "c", 0.76], [18.0, "r", 0.72], [22.85, "c", 0.76], [28.5, "l", 0.72], [30.9, "c", 0.8]],
+  "hits": [0.1, "@kw", 3.9, "@mcp", "@data", "@report", "@less", "@control", "@cta"],
+  "cams": [[0, "push"], [3.9, "whipL"], [4.3, "rise"], [8.85, "punch"], [9.3, "orbitR"], [12.9, "whipR"], [13.3, "push"], [18.0, "tilt"], [22.85, "whipL"], [23.2, "orbitL"], [28.5, "roll"], [29.0, "push"], [30.9, "punch"], [31.4, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 3.9, "kwAt": "@kw", "finish": "chrome"},
+    {"type": "icons", "a": 3.9, "b": 8.85, "items": [{"t": "@gh", "icon": "branch", "label": "GitHub"}, {"t": "@db", "icon": "db", "label": "Database"}, {"t": "@files", "icon": "folder", "label": "Files"}]},
+    {"type": "prop", "a": 8.85, "b": 12.9, "kind": "chip", "s": 1.0,
+     "labels": [{"t": "@standard", "text": "One standard", "icon": "check", "x": 60, "y": 320}, {"t": "@full", "text": "Model Context Protocol", "icon": "link", "x": 200, "y": 640, "solid": true}]},
+    {"type": "flow", "a": 12.9, "b": 18.0, "nodes": [{"t": "@apps", "icon": "ai", "label": "AI app"}, {"t": "@tools", "icon": "link", "label": "MCP"}, {"t": "@data", "icon": "db", "label": "Tools & data", "tone": "good"}]},
+    {"type": "chat", "a": 18.0, "b": 22.85, "model": "AI + GitHub MCP", "icon": "branch",
+     "q": {"t": "@issues", "text": "Summarize the open issues"}, "ans": {"t": "@report", "text": "Report ready: bugs, features and what to fix first."}},
+    {"type": "compare", "a": 22.85, "b": 28.5, "lt": "@integ", "rt": "@less", "vs": "VS",
+     "left": {"title": "Every tool", "icon": "x", "sub": "its own interface", "tone": "bad"},
+     "right": {"title": "MCP", "icon": "link", "sub": "one standard", "tone": "good"}},
+    {"type": "terminal", "a": 28.5, "b": 30.9, "title": "mcp permissions", "lines": [{"t": "@perm", "text": "allow: read issues", "kind": "ok"}, {"t": "@perm+0.5", "text": "deny: delete repo", "kind": "err"}, {"t": "@control", "text": "ask before any write", "kind": "out"}]},
+    {"type": "end", "a": 30.9, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

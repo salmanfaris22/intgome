@@ -1,0 +1,443 @@
+{
+ "n": 13,
+ "title": "RAG",
+ "keyword": "RAG",
+ "pack": 0,
+ "fx": "blur",
+ "bg": "lines",
+ "tail": 50,
+ "worlds": [
+  [
+   0,
+   "violet"
+  ],
+  [
+   4.0,
+   "blue"
+  ],
+  [
+   8.2,
+   "teal"
+  ],
+  [
+   11.0,
+   "gold"
+  ],
+  [
+   14.3,
+   "violet"
+  ],
+  [
+   20.5,
+   "green"
+  ],
+  [
+   24.3,
+   "red"
+  ],
+  [
+   27.4,
+   "blue"
+  ],
+  [
+   29.5,
+   "violet"
+  ]
+ ],
+ "sections": [
+  [
+   0,
+   "RAG"
+  ],
+  [
+   4.0,
+   "YOUR PDFS"
+  ],
+  [
+   8.2,
+   "NO RETRAINING"
+  ],
+  [
+   11.0,
+   "WHAT IS RAG"
+  ],
+  [
+   14.3,
+   "HOW IT WORKS"
+  ],
+  [
+   20.5,
+   "KNOWLEDGE BOTS"
+  ],
+  [
+   24.3,
+   "THE CATCH"
+  ],
+  [
+   27.4,
+   "PDF CHATBOT"
+  ],
+  [
+   29.5,
+   "COMMENT"
+  ]
+ ],
+ "ghosts": [
+  [
+   4.0,
+   8.2,
+   "PDF"
+  ],
+  [
+   14.3,
+   20.5,
+   "RETRIEVE"
+  ],
+  [
+   24.3,
+   27.4,
+   "WRONG"
+  ]
+ ],
+ "poses": [
+  [
+   0,
+   "wave",
+   "happy"
+  ],
+  [
+   1.44,
+   "present",
+   "cool"
+  ],
+  [
+   3.12,
+   "point",
+   "wow"
+  ],
+  [
+   4.05,
+   "think",
+   "wow"
+  ],
+  [
+   6.0,
+   "presentL",
+   "happy"
+  ],
+  [
+   8.35,
+   "stop",
+   "cool"
+  ],
+  [
+   11.12,
+   "cheer",
+   "happy"
+  ],
+  [
+   12.25,
+   "present",
+   "happy"
+  ],
+  [
+   14.41,
+   "point",
+   "neutral"
+  ],
+  [
+   16.82,
+   "presentL",
+   "happy"
+  ],
+  [
+   18.5,
+   "present",
+   "happy"
+  ],
+  [
+   20.62,
+   "hips",
+   "cool"
+  ],
+  [
+   21.17,
+   "present",
+   "happy"
+  ],
+  [
+   24.33,
+   "stop",
+   "wince"
+  ],
+  [
+   25.5,
+   "shrug",
+   "sly"
+  ],
+  [
+   27.46,
+   "wave",
+   "happy"
+  ],
+  [
+   29.55,
+   "point",
+   "cool"
+  ]
+ ],
+ "places": [
+  [
+   0,
+   "c",
+   0.8
+  ],
+  [
+   4.0,
+   "r",
+   0.72
+  ],
+  [
+   8.2,
+   "l",
+   0.72
+  ],
+  [
+   11.0,
+   "c",
+   0.82
+  ],
+  [
+   14.3,
+   "c",
+   0.76
+  ],
+  [
+   20.5,
+   "r",
+   0.72
+  ],
+  [
+   24.3,
+   "c",
+   0.76
+  ],
+  [
+   27.4,
+   "l",
+   0.72
+  ],
+  [
+   29.5,
+   "c",
+   0.8
+  ]
+ ],
+ "hits": [
+  0.1,
+  "@kw",
+  4.0,
+  "@knew",
+  "@noneed",
+  "@full",
+  "@answer",
+  "@idea",
+  "@wrong2",
+  "@cta"
+ ],
+ "cams": [
+  [
+   0,
+   "push"
+  ],
+  [
+   4.0,
+   "whipR"
+  ],
+  [
+   4.4,
+   "orbitL"
+  ],
+  [
+   8.2,
+   "tilt"
+  ],
+  [
+   11.0,
+   "punch"
+  ],
+  [
+   11.5,
+   "push"
+  ],
+  [
+   14.3,
+   "whipL"
+  ],
+  [
+   14.7,
+   "orbitR"
+  ],
+  [
+   20.5,
+   "rise"
+  ],
+  [
+   24.3,
+   "roll"
+  ],
+  [
+   24.8,
+   "push"
+  ],
+  [
+   27.4,
+   "whipR"
+  ],
+  [
+   27.8,
+   "drift"
+  ],
+  [
+   29.5,
+   "punch"
+  ],
+  [
+   30.0,
+   "pull"
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "a": 0,
+   "b": 4.0,
+   "kwAt": "@kw",
+   "finish": "accent"
+  },
+  {
+   "type": "prop",
+   "a": 4.0,
+   "b": 8.2,
+   "kind": "doc",
+   "s": 1.05,
+   "labels": [
+    {
+     "t": "@thousands",
+     "text": "1000s of PDFs",
+     "icon": "doc",
+     "x": 60,
+     "y": 320
+    },
+    {
+     "t": "@ai",
+     "text": "AI knows them",
+     "icon": "ai",
+     "x": 620,
+     "y": 560,
+     "tone": "good"
+    }
+   ]
+  },
+  {
+   "type": "prop",
+   "a": 8.2,
+   "b": 11.0,
+   "kind": "chip",
+   "s": 0.95
+  },
+  {
+   "type": "stamp",
+   "a": "@noneed",
+   "b": 11.0,
+   "text": "NO RETRAINING",
+   "icon": "check",
+   "color": "good",
+   "y": 610
+  },
+  {
+   "type": "word",
+   "a": 11.0,
+   "b": 14.3,
+   "text": "RAG",
+   "finish": "gold",
+   "size": 1.8
+  },
+  {
+   "type": "flow",
+   "a": 14.3,
+   "b": 20.5,
+   "nodes": [
+    {
+     "t": "@rel",
+     "icon": "search",
+     "label": "Find relevant docs"
+    },
+    {
+     "t": "@llm",
+     "icon": "ai",
+     "label": "LLM reads them"
+    },
+    {
+     "t": "@answer",
+     "icon": "chat",
+     "label": "Answer",
+     "tone": "good"
+    }
+   ]
+  },
+  {
+   "type": "chat",
+   "a": 20.5,
+   "b": 24.3,
+   "model": "Company assistant",
+   "icon": "doc",
+   "q": {
+    "t": "@assist",
+    "text": "What is our refund policy?"
+   },
+   "ans": {
+    "t": "@idea",
+    "text": "From policy.pdf, page 3: refunds within 7 days."
+   }
+  },
+  {
+   "type": "flow",
+   "a": 24.3,
+   "b": 27.4,
+   "nodes": [
+    {
+     "t": "@ret",
+     "icon": "doc",
+     "label": "Wrong document",
+     "tone": "bad"
+    },
+    {
+     "t": "@wrong2",
+     "icon": "x",
+     "label": "Wrong answer",
+     "tone": "bad"
+    }
+   ]
+  },
+  {
+   "type": "prop",
+   "a": 27.4,
+   "b": 29.5,
+   "kind": "phone",
+   "s": 1.0,
+   "screen": {
+    "icon": "doc",
+    "title": "PDF Chatbot"
+   },
+   "turn": 0.4
+  },
+  {
+   "type": "end",
+   "a": 29.5,
+   "b": 45,
+   "kwAt": "@cta",
+   "followAt": "@cta+0.9"
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+  "n": 10, "title": "MILLION USERS", "keyword": "SCALE", "pack": 3, "fx": "pop", "bg": "stars", "tail": 50,
+  "worlds": [[0, "blue"], [4.4, "red"], [8.8, "violet"], [11.0, "teal"], [18.2, "gold"], [20.2, "blue"], [24.7, "ember"], [28.4, "blue"]],
+  "sections": [[0, "MILLION USERS"], [4.4, "10 LAKH USERS"], [8.8, "ARCHITECTURE"], [11.0, "THE TOOLKIT"], [18.2, "THE SECRET"], [20.2, "NOT THE SAME"], [24.7, "TRAFFIC PATTERN"], [28.4, "COMMENT"]],
+  "ghosts": [[4.4, 8.8, "CRASH"], [11.0, 18.2, "SCALE"], [24.7, 28.4, "TRAFFIC"]],
+  "poses": [[0, "wave", "happy"], [1.16, "present", "cool"], [3.63, "point", "wow"], [4.58, "think", "wow"], [6.6, "shrug", "shock"], [8.88, "point", "cool"], [11.0, "present", "happy"], [13.2, "presentL", "happy"], [15.0, "present", "happy"], [16.5, "point", "cool"], [18.28, "hips", "sly"], [20.3, "presentL", "neutral"], [22.15, "present", "wow"], [24.83, "stop", "sly"], [26.5, "point", "neutral"], [28.55, "wave", "happy"], [30.4, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.4, "c", 0.78], [8.8, "r", 0.72], [11.0, "c", 0.74], [18.2, "c", 0.82], [20.2, "c", 0.76], [24.7, "l", 0.72], [28.4, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.4, "@crash", "@arch", "@hscale", "@secret", "@notsame", "@dont", "@cta"],
+  "cams": [[0, "push"], [4.4, "rise"], [8.8, "whipR"], [9.2, "orbitL"], [11.0, "tilt"], [18.2, "punch"], [18.7, "push"], [20.2, "whipL"], [20.6, "orbitR"], [24.7, "roll"], [25.2, "push"], [28.4, "punch"], [28.9, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.4, "kwAt": "@kw", "finish": "white"},
+    {"type": "stat", "a": 4.4, "b": 8.8, "t": "@million", "from": 0, "to": 1000000, "label": "users at once?", "icon": "users", "finish": "white", "dur": 30},
+    {"type": "stamp", "a": "@crash", "b": 8.8, "text": "CRASH?", "icon": "warning", "color": "bad", "y": 640},
+    {"type": "prop", "a": 8.8, "b": 11.0, "kind": "server", "s": 1.0, "labels": [{"t": "@arch", "text": "Architecture decides", "icon": "layers", "x": 200, "y": 640, "solid": true}]},
+    {"type": "icons", "a": 11.0, "b": 18.2, "cols": 2, "y": 300, "items": [{"t": "@lb", "icon": "swap", "label": "Load balancer"}, {"t": "@cache", "icon": "bolt", "label": "Caching"}, {"t": "@index", "icon": "list", "label": "DB indexing"}, {"t": "@hscale", "icon": "server", "label": "Horizontal scaling", "tone": "good"}]},
+    {"type": "word", "a": 18.2, "b": 20.2, "text": "THE SECRET", "finish": "chrome", "size": 1.2},
+    {"type": "compare", "a": 20.2, "b": 24.7, "lt": "@reg", "rt": "@sim", "vs": "≠",
+     "left": {"title": "Registered", "icon": "users", "sub": "10 lakh accounts", "tone": "good"},
+     "right": {"title": "Simultaneous", "icon": "bolt", "sub": "online at once", "tone": "gold"}},
+    {"type": "bars", "a": 24.7, "b": 28.4, "title": "TRAFFIC PATTERN (EXAMPLE)", "unit": "%", "items": [{"label": "Morning", "v": 35, "t": "@pattern"}, {"label": "Evening peak", "v": 100, "t": "@pattern+0.4", "tone": "bad"}, {"label": "Night", "v": 15, "t": "@pattern+0.8"}]},
+    {"type": "stamp", "a": "@dont", "b": 28.4, "text": "MEASURE FIRST", "color": "gold", "y": 660, "rot": -5},
+    {"type": "end", "a": 28.4, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

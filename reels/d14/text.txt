@@ -1,0 +1,21 @@
+# Day 14 — Passkey (keyword PASSKEY)
+Day_14@day
+*Passkey@title
+[Secret]@secretkw keyword
+*PASSKEY@kw
+[Password]@pw type ചെയ്യാതെ@notype
+*secure_login{2}@login ചെയ്യാൻ കഴിഞ്ഞാലോ?
+[Fingerprint]@finger അല്ലെങ്കിൽ
+[Face_unlock]{2}@face *മാത്രം!@only
+Passkeys{2}@pk *public_key_cryptography{3}@crypto
+അടിസ്ഥാനമാക്കിയാണ് പ്രവർത്തിക്കുന്നത്
+Traditional passwords-നേക്കാൾ@trad
+[phishing-resistant]{2}@phish authentication@auth
+നൽകാൻ ഇവയ്ക്ക് *കഴിയും@can
+ഇതിലെ *secret@secret
+Website-ന്@site നിങ്ങളുടെ [password]@pw2
+*store_ചെയ്യേണ്ടതില്ല!{2}@nostore
+പക്ഷേ [account_recovery]{2}@recovery
+ശരിയായി *configure_ചെയ്യണം{2}@config
+Passkey_setup_guide{4}@guide *വേണോ?
+[PASSKEY]{2}@cta എന്ന് comment ചെയ്യൂ

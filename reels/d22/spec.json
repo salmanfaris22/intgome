@@ -1,0 +1,21 @@
+{
+  "n": 22, "title": "DEEPFAKE", "keyword": "FAKE", "pack": 3, "fx": "type", "bg": "beams", "tail": 50,
+  "worlds": [[0, "red"], [4.1, "violet"], [8.2, "gold"], [10.2, "pink"], [15.5, "blue"], [19.0, "green"], [25.6, "ember"], [28.1, "red"]],
+  "sections": [[0, "DEEPFAKE"], [4.1, "VIRAL VIDEO"], [8.2, "REAL?"], [10.2, "WHAT IT FAKES"], [15.5, "VERIFY"], [19.0, "3 CHECKS"], [25.6, "DETECTORS"], [28.1, "COMMENT"]],
+  "ghosts": [[4.1, 8.2, "VIRAL"], [10.2, 15.5, "SYNTHETIC"], [19.0, 25.6, "VERIFY"]],
+  "poses": [[0, "wave", "happy"], [1.34, "present", "cool"], [3.43, "point", "wow"], [4.2, "think", "neutral"], [5.97, "shrug", "shock"], [8.29, "think", "wow"], [10.32, "present", "neutral"], [13.15, "presentL", "neutral"], [15.63, "stop", "cool"], [17.0, "point", "cool"], [19.08, "point", "happy"], [20.74, "present", "happy"], [22.77, "presentL", "happy"], [25.68, "stop", "sly"], [28.13, "wave", "happy"], [30.05, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.1, "r", 0.72], [8.2, "c", 0.82], [10.2, "c", 0.76], [15.5, "l", 0.72], [19.0, "r", 0.72], [25.6, "c", 0.78], [28.1, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.1, "@aigen", "@believe", "@create", "@methods", "@look", "@notproof", "@cta"],
+  "cams": [[0, "push"], [4.1, "whipL"], [4.5, "orbitR"], [8.2, "punch"], [8.7, "push"], [10.2, "whipR"], [10.6, "rise"], [15.5, "tilt"], [19.0, "whipL"], [19.4, "drift"], [25.6, "roll"], [26.1, "push"], [28.1, "punch"], [28.6, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.1, "kwAt": "@kw", "finish": "chrome"},
+    {"type": "prop", "a": 4.1, "b": 8.2, "kind": "phone", "s": 1.05, "screen": {"icon": "play", "title": "VIRAL"}, "labels": [{"t": "@viral", "text": "Viral video", "icon": "video", "x": 60, "y": 320}, {"t": "@aigen", "text": "100% AI?", "icon": "ai", "x": 650, "y": 560, "tone": "bad"}]},
+    {"type": "word", "a": 8.2, "b": 10.2, "text": "REAL?", "finish": "chrome", "size": 1.5},
+    {"type": "icons", "a": 10.2, "b": 15.5, "items": [{"t": "@faces", "icon": "face", "label": "Faces"}, {"t": "@voices", "icon": "mic", "label": "Voices"}, {"t": "@lips", "icon": "chat", "label": "Lip-sync"}]},
+    {"type": "prop", "a": 15.5, "b": 19.0, "kind": "magnifier", "s": 1.1, "labels": [{"t": "@methods", "text": "Verify first", "icon": "search", "x": 600, "y": 340, "tone": "good"}]},
+    {"type": "list", "a": 19.0, "b": 25.6, "title": "VERIFY BEFORE YOU SHARE", "numbered": true, "items": [{"t": "@source", "text": "Check the original source"}, {"t": "@indep", "text": "Compare independent reports"}, {"t": "@prov", "text": "Look for provenance info", "tone": "good"}]},
+    {"type": "gauge", "a": 25.6, "b": 28.1, "t": "@detector", "from": 0, "to": 63, "label": "AI DETECTOR SAYS", "text": "63%?"},
+    {"type": "stamp", "a": "@notproof", "b": 28.1, "text": "NOT FINAL PROOF", "color": "gold", "y": 585},
+    {"type": "end", "a": 28.1, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

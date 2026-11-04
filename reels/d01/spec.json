@@ -1,0 +1,28 @@
+{
+  "n": 1,
+  "title": "PRIVATE AI",
+  "keyword": "LOCAL",
+  "pack": 0,
+  "tail": 45,
+  "worlds": [[0, "ember"], [4.3, "blue"], [12.2, "gold"], [14.7, "green"], [19.9, "teal"], [23.5, "violet"], [29.2, "red"], [33.0, "blue"], [35.6, "ember"]],
+  "sections": [[0, "PRIVATE AI"], [4.3, "NO INTERNET"], [12.2, "THE SECRET"], [14.7, "OLLAMA"], [19.9, "OFFLINE"], [23.5, "USE CASES"], [29.2, "THE CATCH"], [33.0, "SETUP"], [35.6, "COMMENT"]],
+  "ghosts": [[4.3, 12.0, "OFFLINE"], [14.7, 19.9, "OLLAMA"], [29.2, 33.0, "RAM"]],
+  "poses": [[0, "wave", "happy"], [1.28, "present", "cool"], [3.39, "point", "wow"], [4.49, "think", "neutral"], [6.6, "presentL", "wow"], [10.04, "shrug", "sly"], [12.34, "hips", "sly"], [14.86, "point", "cool"], [17.4, "present", "happy"], [19.96, "idle", "neutral"], [21.66, "cheer", "happy"], [23.69, "present", "happy"], [25.47, "point", "wow"], [26.41, "cheer", "happy"], [29.34, "stop", "wince"], [31.0, "think", "neutral"], [33.08, "wave", "happy"], [35.67, "point", "cool"], [37.82, "present", "happy"]],
+  "places": [[0, "c", 0.8], [4.3, "r", 0.72], [12.2, "c", 0.82], [14.7, "l", 0.72], [19.9, "c", 0.76], [23.5, "c", 0.78], [29.2, "r", 0.74], [35.6, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.3, "@sub", 12.2, "@ollama", 23.5, "@ram", "@cta"],
+  "cams": [[0, "push"], [4.3, "whipL"], [4.7, "orbitR"], [12.2, "punch"], [12.7, "push"], [14.7, "whipR"], [15.1, "tilt"], [19.9, "orbitL"], [23.5, "rise"], [29.2, "roll"], [29.8, "push"], [33.0, "whipL"], [33.4, "drift"], [35.6, "punch"], [36.1, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.3, "kwAt": "@kw"},
+    {"type": "prop", "a": 4.3, "b": 12.2, "kind": "laptop", "screen": {"icon": "wifiOff", "title": "OFFLINE AI"},
+     "labels": [{"t": "@nonet", "text": "No Internet", "icon": "wifiOff", "x": 70, "y": 300}, {"t": "@gpt", "text": "ChatGPT-like", "icon": "chat", "x": 600, "y": 330}]},
+    {"type": "stamp", "a": "@sub", "b": 12.2, "text": "₹0 / month", "icon": "rupee", "color": "gold", "y": 600},
+    {"type": "word", "a": 12.2, "b": 14.7, "text": "SECRET", "finish": "gold", "sub": "മിക്കവർക്കും അറിയില്ല", "subT": 12.6},
+    {"type": "terminal", "a": 14.7, "b": 19.9, "title": "~/ollama",
+     "lines": [{"t": "@ollama", "text": "ollama run llama3", "kind": "cmd"}, {"t": "@models", "text": "pulling model ... 100%", "kind": "out"}, {"t": "@run", "text": "running on your laptop", "kind": "ok"}]},
+    {"type": "flow", "a": 19.9, "b": 23.5, "nodes": [{"t": "@dl", "icon": "download", "label": "Download once"}, {"t": 21.3, "icon": "laptop", "label": "Your laptop"}, {"t": "@offline", "icon": "wifiOff", "label": "Works offline", "tone": "good"}]},
+    {"type": "icons", "a": 23.5, "b": 29.2, "items": [{"t": "@pdf", "icon": "doc", "label": "Analyze PDF"}, {"t": "@code", "icon": "code", "label": "Write code"}, {"t": "@asst", "icon": "robot", "label": "Own assistant"}]},
+    {"type": "bars", "a": 29.2, "b": 33.0, "title": "RAM YOU NEED (OLLAMA GUIDE)", "items": [{"label": "7B model", "v": 25, "t": "@big", "text": "8 GB"}, {"label": "13B model", "v": 50, "t": 30.4, "text": "16 GB"}, {"label": "33B model", "v": 100, "t": "@ram", "tone": "bad", "text": "32 GB"}]},
+    {"type": "prop", "a": 33.0, "b": 35.6, "kind": "laptop", "screen": {"icon": "download", "title": "ollama setup"}, "turn": 0.4},
+    {"type": "end", "a": 35.6, "b": 45, "kwAt": "@cta", "followAt": "@dm"}
+  ]
+}

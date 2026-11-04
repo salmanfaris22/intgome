@@ -1,0 +1,8 @@
+{
+ "1": ["PRIVATE AI", "LOCAL"], "2": ["AI CODING", "CODE"], "3": ["VIBE CODING", "VIBE"], "4": ["REDIS", "REDIS"], "5": ["COMPUTER USE AI", "AGENT"],
+ "6": ["PWA", "PWA"], "7": ["MCP", "MCP"], "8": ["AI AUTOMATION", "AUTO"], "9": ["FREE HOSTING", "FREE"], "10": ["MILLION USERS", "SCALE"],
+ "11": ["VOICE CLONING", "VOICE"], "12": ["AI VIDEO", "VIDEO"], "13": ["RAG", "RAG"], "14": ["PASSKEY", "PASSKEY"], "15": ["AI CODE SECURITY", "SECURE"],
+ "16": ["DATABASE INDEX", "INDEX"], "17": ["DOCKER", "DOCKER"], "18": ["AI MEMORY", "MEMORY"], "19": ["WEBSITE SPEED", "FAST"], "20": ["CLOUD GPU", "GPU"],
+ "21": ["MULTI-AGENT", "MULTI"], "22": ["DEEPFAKE", "FAKE"], "23": ["AI BACKEND", "BACKEND"], "24": ["CLOUD COST", "CLOUD"], "25": ["AI SEARCH", "SEARCH"],
+ "26": ["ROBOTICS AI", "ROBOT"], "27": ["GITHUB", "GITHUB"], "28": ["EDGE AI", "EDGE"], "29": ["PROMPT INJECTION", "HACK"], "30": ["PERSONAL AI", "SYSTEM"]
+}

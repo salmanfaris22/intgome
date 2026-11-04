@@ -1,0 +1,24 @@
+{
+  "n": 14, "title": "PASSKEY", "keyword": "PASSKEY", "pack": 1, "fx": "blur", "bg": "grid", "tail": 50,
+  "worlds": [[0, "teal"], [4.3, "blue"], [7.7, "violet"], [10.8, "gold"], [14.7, "red"], [19.4, "green"], [23.6, "ember"], [26.8, "teal"]],
+  "sections": [[0, "PASSKEY"], [4.3, "NO PASSWORD"], [7.7, "JUST YOU"], [10.8, "HOW IT WORKS"], [14.7, "PHISHING-RESISTANT"], [19.4, "THE SECRET"], [23.6, "RECOVERY"], [26.8, "COMMENT"]],
+  "ghosts": [[4.3, 7.7, "LOGIN"], [10.8, 14.7, "KEYS"], [19.4, 23.6, "NO STORE"]],
+  "poses": [[0, "wave", "happy"], [1.4, "present", "cool"], [3.57, "point", "wow"], [4.45, "think", "wow"], [6.0, "presentL", "happy"], [7.88, "point", "happy"], [9.2, "present", "cool"], [10.92, "present", "neutral"], [12.6, "point", "cool"], [14.89, "presentL", "happy"], [16.8, "cheer", "happy"], [19.52, "hips", "sly"], [20.71, "point", "cool"], [23.73, "stop", "sly"], [26.93, "wave", "happy"], [28.61, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.3, "r", 0.72], [7.7, "c", 0.76], [10.8, "c", 0.76], [14.7, "c", 0.76], [19.4, "l", 0.72], [23.6, "c", 0.78], [26.8, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.3, "@login", "@only", "@crypto", "@phish", "@nostore", "@config", "@cta"],
+  "cams": [[0, "push"], [4.3, "whipL"], [4.7, "orbitR"], [7.7, "rise"], [10.8, "whipR"], [11.2, "orbitL"], [14.7, "tilt"], [19.4, "punch"], [19.9, "push"], [23.6, "roll"], [24.1, "push"], [26.8, "punch"], [27.3, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.3, "kwAt": "@kw", "finish": "chrome"},
+    {"type": "prop", "a": 4.3, "b": 7.7, "kind": "phone", "s": 1.05, "screen": {"icon": "finger", "title": "Sign in"},
+     "labels": [{"t": "@pw", "text": "No password", "icon": "x", "x": 60, "y": 320, "tone": "bad"}, {"t": "@login", "text": "Secure login", "icon": "lock", "x": 640, "y": 540, "tone": "good"}]},
+    {"type": "icons", "a": 7.7, "b": 10.8, "items": [{"t": "@finger", "icon": "finger", "label": "Fingerprint"}, {"t": "@face", "icon": "face", "label": "Face unlock", "tone": "good"}]},
+    {"type": "flow", "a": 10.8, "b": 14.7, "nodes": [{"t": "@pk", "icon": "phone", "label": "Private key on phone"}, {"t": "@crypto", "icon": "server", "label": "Public key on server", "tone": "good"}]},
+    {"type": "compare", "a": 14.7, "b": 19.4, "lt": "@trad", "rt": "@phish", "vs": "VS",
+     "left": {"title": "Password", "icon": "lock", "sub": "can be phished", "tone": "bad"},
+     "right": {"title": "Passkey", "icon": "finger", "sub": "phishing-resistant", "tone": "good"}},
+    {"type": "prop", "a": 19.4, "b": 23.6, "kind": "db", "s": 1.0},
+    {"type": "stamp", "a": "@nostore", "b": 23.6, "text": "NO PASSWORD STORED", "icon": "check", "color": "good", "y": 580},
+    {"type": "cards", "a": 23.6, "b": 26.8, "layout": "row", "items": [{"t": "@recovery", "icon": "swap", "title": "Account recovery", "sub": "configure it properly", "tone": "gold"}]},
+    {"type": "end", "a": 26.8, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

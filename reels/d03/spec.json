@@ -1,0 +1,25 @@
+{
+  "n": 3, "title": "VIBE CODING", "keyword": "VIBE", "pack": 2, "tail": 45,
+  "worlds": [[0, "pink"], [4.4, "violet"], [10.0, "gold"], [11.6, "blue"], [17.6, "gold"], [19.3, "red"], [25.8, "teal"], [30.6, "green"], [32.7, "blue"], [34.2, "pink"]],
+  "sections": [[0, "VIBE CODING"], [4.4, "NO CODING?"], [10.0, "VIBE CODING"], [11.6, "AI GENERATES"], [17.6, "THE SECRET"], [19.3, "ONE BY ONE"], [25.8, "THE ORDER"], [30.6, "CHECK THE CODE"], [32.7, "WORKFLOW"], [34.2, "COMMENT"]],
+  "ghosts": [[4.4, 10.0, "IDEA"], [11.6, 17.6, "BUILD"], [25.8, 30.6, "STEPS"]],
+  "poses": [[0, "wave", "happy"], [1.56, "present", "cool"], [3.66, "point", "wow"], [4.52, "think", "neutral"], [7.58, "presentL", "happy"], [10.11, "cheer", "wow"], [11.66, "present", "happy"], [14.52, "point", "cool"], [17.67, "hips", "sly"], [19.37, "stop", "wince"], [22.21, "present", "happy"], [24.5, "point", "cool"], [26.0, "point", "happy"], [27.14, "presentL", "happy"], [28.32, "present", "happy"], [29.46, "cheer", "happy"], [30.79, "stop", "sly"], [32.84, "wave", "happy"], [34.31, "point", "cool"], [35.72, "present", "happy"]],
+  "places": [[0, "c", 0.8], [4.4, "r", 0.72], [10.0, "c", 0.82], [11.6, "c", 0.76], [17.6, "l", 0.74], [19.3, "c", 0.76], [25.8, "r", 0.72], [30.6, "l", 0.72], [32.7, "c", 0.76], [34.2, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.4, "@vibe", "@secret", "@feature", "@s4", "@check", "@cta"],
+  "cams": [[0, "push"], [4.4, "whipL"], [4.8, "orbitR"], [10.0, "punch"], [10.5, "push"], [11.6, "whipR"], [12.0, "rise"], [17.6, "roll"], [18.1, "push"], [19.3, "whipL"], [19.7, "orbitL"], [25.8, "tilt"], [30.6, "whipR"], [31.0, "drift"], [32.7, "push"], [34.2, "punch"], [34.7, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.4, "kwAt": "@kw", "finish": "accent"},
+    {"type": "prop", "a": 4.4, "b": 10.0, "kind": "phone", "s": 1.05, "screen": {"icon": "ai", "title": "My App"},
+     "labels": [{"t": "@app", "text": "No coding", "icon": "code", "x": 60, "y": 330}, {"t": "@idea", "text": "Just your idea", "icon": "chat", "x": 610, "y": 520}]},
+    {"type": "word", "a": 10.0, "b": 11.6, "text": "VIBE CODING", "finish": "accent", "size": 1.2},
+    {"type": "icons", "a": 11.6, "b": 17.6, "items": [{"t": "@ui", "icon": "image", "label": "UI"}, {"t": "@api", "icon": "link", "label": "API"}, {"t": "@db", "icon": "db", "label": "Database"}]},
+    {"type": "prop", "a": 17.6, "b": 19.3, "kind": "key", "s": 1.1, "labels": [{"t": "@secret", "text": "The secret", "icon": "key", "x": 330, "y": 640, "tone": "gold", "solid": true}]},
+    {"type": "compare", "a": 19.3, "b": 25.8, "lt": "@prompt", "rt": "@feature", "vs": "VS",
+     "left": {"title": "One prompt", "icon": "chat", "sub": "whole app", "tone": "bad"},
+     "right": {"title": "Feature by feature", "icon": "layers", "sub": "easy to control", "tone": "good"}},
+    {"type": "list", "a": 25.8, "b": 30.6, "title": "BUILD ORDER", "numbered": true, "items": [{"t": "@s1", "text": "UI"}, {"t": "@s2", "text": "API"}, {"t": "@s3", "text": "Database"}, {"t": "@s4", "text": "Testing", "tone": "good"}]},
+    {"type": "terminal", "a": 30.6, "b": 32.75, "title": "review", "lines": [{"t": 30.8, "text": "git diff", "kind": "cmd"}, {"t": 31.5, "text": "+ 214 lines written by AI", "kind": "out"}, {"t": "@check", "text": "read every line before merge", "kind": "ok"}]},
+    {"type": "flow", "a": 32.75, "b": 34.25, "nodes": [{"t": "@wf", "icon": "ai", "label": "Idea"}, {"t": "@wf+0.3", "icon": "code", "label": "Build"}, {"t": "@wf+0.6", "icon": "bug", "label": "Test"}, {"t": "@wf+0.9", "icon": "rocket", "label": "Ship", "tone": "good"}]},
+    {"type": "end", "a": 34.25, "b": 45, "kwAt": "@cta", "followAt": "@dm"}
+  ]
+}

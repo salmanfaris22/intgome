@@ -1,0 +1,397 @@
+{
+ "n": 21,
+ "title": "MULTI-AGENT",
+ "keyword": "MULTI",
+ "pack": 2,
+ "fx": "blur",
+ "bg": "dots",
+ "tail": 50,
+ "worlds": [
+  [
+   0,
+   "violet"
+  ],
+  [
+   4.1,
+   "blue"
+  ],
+  [
+   7.0,
+   "teal"
+  ],
+  [
+   11.6,
+   "violet"
+  ],
+  [
+   18.8,
+   "red"
+  ],
+  [
+   23.5,
+   "gold"
+  ],
+  [
+   26.6,
+   "violet"
+  ]
+ ],
+ "sections": [
+  [
+   0,
+   "MULTI-AGENT"
+  ],
+  [
+   4.1,
+   "AI DELEGATES"
+  ],
+  [
+   7.0,
+   "ROLES"
+  ],
+  [
+   11.6,
+   "MULTI-AGENT SYSTEMS"
+  ],
+  [
+   18.8,
+   "THE SECRET"
+  ],
+  [
+   23.5,
+   "WHAT MATTERS"
+  ],
+  [
+   26.6,
+   "COMMENT"
+  ]
+ ],
+ "ghosts": [
+  [
+   4.1,
+   11.6,
+   "AGENTS"
+  ],
+  [
+   11.6,
+   18.8,
+   "TEAM"
+  ],
+  [
+   23.5,
+   26.6,
+   "COST"
+  ]
+ ],
+ "poses": [
+  [
+   0,
+   "wave",
+   "happy"
+  ],
+  [
+   1.27,
+   "present",
+   "cool"
+  ],
+  [
+   3.47,
+   "point",
+   "wow"
+  ],
+  [
+   4.27,
+   "think",
+   "wow"
+  ],
+  [
+   7.21,
+   "point",
+   "happy"
+  ],
+  [
+   8.64,
+   "presentL",
+   "happy"
+  ],
+  [
+   10.09,
+   "present",
+   "cool"
+  ],
+  [
+   11.71,
+   "cheer",
+   "happy"
+  ],
+  [
+   14.3,
+   "present",
+   "happy"
+  ],
+  [
+   16.5,
+   "point",
+   "cool"
+  ],
+  [
+   18.95,
+   "stop",
+   "sly"
+  ],
+  [
+   20.33,
+   "shrug",
+   "neutral"
+  ],
+  [
+   23.64,
+   "point",
+   "neutral"
+  ],
+  [
+   25.0,
+   "present",
+   "cool"
+  ],
+  [
+   26.67,
+   "wave",
+   "happy"
+  ],
+  [
+   28.11,
+   "point",
+   "cool"
+  ]
+ ],
+ "places": [
+  [
+   0,
+   "c",
+   0.8
+  ],
+  [
+   4.1,
+   "c",
+   0.76
+  ],
+  [
+   7.0,
+   "c",
+   0.76
+  ],
+  [
+   11.6,
+   "r",
+   0.72
+  ],
+  [
+   18.8,
+   "c",
+   0.8
+  ],
+  [
+   23.5,
+   "l",
+   0.72
+  ],
+  [
+   26.6,
+   "c",
+   0.8
+  ]
+ ],
+ "hits": [
+  0.1,
+  "@kw",
+  4.1,
+  "@delegate",
+  "@review",
+  "@mas",
+  "@coord",
+  "@notbetter",
+  "@errors",
+  "@cta"
+ ],
+ "cams": [
+  [
+   0,
+   "push"
+  ],
+  [
+   4.1,
+   "whipR"
+  ],
+  [
+   4.5,
+   "orbitL"
+  ],
+  [
+   7.0,
+   "rise"
+  ],
+  [
+   11.6,
+   "whipL"
+  ],
+  [
+   12.0,
+   "orbitR"
+  ],
+  [
+   18.8,
+   "punch"
+  ],
+  [
+   19.3,
+   "push"
+  ],
+  [
+   23.5,
+   "roll"
+  ],
+  [
+   24.0,
+   "drift"
+  ],
+  [
+   26.6,
+   "punch"
+  ],
+  [
+   27.1,
+   "pull"
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "a": 0,
+   "b": 4.1,
+   "kwAt": "@kw",
+   "finish": "accent"
+  },
+  {
+   "type": "flow",
+   "a": 4.1,
+   "b": 7.0,
+   "nodes": [
+    {
+     "t": "@ai1",
+     "icon": "robot",
+     "label": "Lead AI"
+    },
+    {
+     "t": "@ai2",
+     "icon": "robot",
+     "label": "Helper AI",
+     "tone": "good"
+    }
+   ]
+  },
+  {
+   "type": "cards",
+   "a": 7.0,
+   "b": 11.6,
+   "layout": "row",
+   "items": [
+    {
+     "t": "@research",
+     "icon": "search",
+     "title": "Agent 1",
+     "sub": "research"
+    },
+    {
+     "t": "@code",
+     "icon": "code",
+     "title": "Agent 2",
+     "sub": "writes code"
+    },
+    {
+     "t": "@review",
+     "icon": "check",
+     "title": "Agent 3",
+     "sub": "reviews",
+     "tone": "good"
+    }
+   ]
+  },
+  {
+   "type": "prop",
+   "a": 11.6,
+   "b": 18.8,
+   "kind": "robot",
+   "s": 0.9,
+   "x": -1.0,
+   "second": {
+    "kind": "robot",
+    "at": "@roles",
+    "x": 1.6,
+    "y": 0.3,
+    "s": 0.6
+   },
+   "labels": [
+    {
+     "t": "@mas",
+     "text": "Multi-agent system",
+     "icon": "agents",
+     "x": 40,
+     "y": 655,
+     "solid": true
+    },
+    {
+     "t": "@coord",
+     "text": "Coordinate",
+     "icon": "swap",
+     "x": 640,
+     "y": 655,
+     "tone": "good"
+    }
+   ]
+  },
+  {
+   "type": "word",
+   "a": 18.8,
+   "b": 23.5,
+   "text": "MORE AGENTS?",
+   "finish": "chrome",
+   "size": 1.1
+  },
+  {
+   "type": "stamp",
+   "a": "@notbetter",
+   "b": 23.5,
+   "text": "NOT ALWAYS BETTER",
+   "color": "bad",
+   "y": 585
+  },
+  {
+   "type": "list",
+   "a": 23.5,
+   "b": 26.6,
+   "title": "WHAT REALLY MATTERS",
+   "items": [
+    {
+     "t": "@cost",
+     "text": "Coordination cost",
+     "icon": "rupee",
+     "tone": "gold"
+    },
+    {
+     "t": "@errors",
+     "text": "Error handling",
+     "icon": "bug",
+     "tone": "gold"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "a": 26.6,
+   "b": 45,
+   "kwAt": "@cta",
+   "followAt": "@cta+0.9"
+  }
+ ]
+}

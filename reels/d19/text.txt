@@ -1,0 +1,23 @@
+# Day 19 — Website speed (keyword FAST)
+Day_19@day
+*Website_speed{2}@title
+[Secret]@secretkw keyword
+*FAST@kw
+നിങ്ങളുടെ website@site *slow_ആണോ?{2}@slow
+[Server_upgrade]{2}@upgrade ചെയ്യുന്നതിനുമുമ്പ്
+ഈ കാര്യം *പരിശോധിക്കൂ!@check
+[Large_images]{2}@img
+[Unnecessary_JavaScript]{2}@js
+[Slow_APIs]{2}@api
+[Network_latency]{2}@lat എന്നിവ
+website *slow_ആക്കാം{2}@makeslow
+[CDN]@cdn
+[Image_compression]{2}@compress
+[Caching]@cache *lazy_loading{2}@lazy എന്നിവ
+performance@perf *മെച്ചപ്പെടുത്താൻ@improve സഹായിക്കും
+പക്ഷേ *secret@secret എന്താണ്?
+*Guess_ചെയ്യാതെ{2}@noguess
+[Lighthouse]@lh പോലുള്ള tools ഉപയോഗിച്ച്
+[bottleneck]@bn *കണ്ടെത്തുക!@find
+Website_speed_checklist{3}@guide *വേണോ?
+[FAST]@cta എന്ന് comment ചെയ്യൂ

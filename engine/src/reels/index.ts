@@ -1,0 +1,130 @@
+import type {ReelData, Spec, Captions, Lip} from '../engine/types';
+import d01s from './d01/spec.json';
+import d01c from './d01/captions.json';
+import d01l from './d01/lipsync.json';
+import d02s from './d02/spec.json';
+import d02c from './d02/captions.json';
+import d02l from './d02/lipsync.json';
+import d03s from './d03/spec.json';
+import d03c from './d03/captions.json';
+import d03l from './d03/lipsync.json';
+import d04s from './d04/spec.json';
+import d04c from './d04/captions.json';
+import d04l from './d04/lipsync.json';
+import d05s from './d05/spec.json';
+import d05c from './d05/captions.json';
+import d05l from './d05/lipsync.json';
+import d06s from './d06/spec.json';
+import d06c from './d06/captions.json';
+import d06l from './d06/lipsync.json';
+import d07s from './d07/spec.json';
+import d07c from './d07/captions.json';
+import d07l from './d07/lipsync.json';
+import d08s from './d08/spec.json';
+import d08c from './d08/captions.json';
+import d08l from './d08/lipsync.json';
+import d09s from './d09/spec.json';
+import d09c from './d09/captions.json';
+import d09l from './d09/lipsync.json';
+import d10s from './d10/spec.json';
+import d10c from './d10/captions.json';
+import d10l from './d10/lipsync.json';
+import d11s from './d11/spec.json';
+import d11c from './d11/captions.json';
+import d11l from './d11/lipsync.json';
+import d12s from './d12/spec.json';
+import d12c from './d12/captions.json';
+import d12l from './d12/lipsync.json';
+import d13s from './d13/spec.json';
+import d13c from './d13/captions.json';
+import d13l from './d13/lipsync.json';
+import d14s from './d14/spec.json';
+import d14c from './d14/captions.json';
+import d14l from './d14/lipsync.json';
+import d15s from './d15/spec.json';
+import d15c from './d15/captions.json';
+import d15l from './d15/lipsync.json';
+import d16s from './d16/spec.json';
+import d16c from './d16/captions.json';
+import d16l from './d16/lipsync.json';
+import d17s from './d17/spec.json';
+import d17c from './d17/captions.json';
+import d17l from './d17/lipsync.json';
+import d18s from './d18/spec.json';
+import d18c from './d18/captions.json';
+import d18l from './d18/lipsync.json';
+import d19s from './d19/spec.json';
+import d19c from './d19/captions.json';
+import d19l from './d19/lipsync.json';
+import d20s from './d20/spec.json';
+import d20c from './d20/captions.json';
+import d20l from './d20/lipsync.json';
+import d21s from './d21/spec.json';
+import d21c from './d21/captions.json';
+import d21l from './d21/lipsync.json';
+import d22s from './d22/spec.json';
+import d22c from './d22/captions.json';
+import d22l from './d22/lipsync.json';
+import d23s from './d23/spec.json';
+import d23c from './d23/captions.json';
+import d23l from './d23/lipsync.json';
+import d24s from './d24/spec.json';
+import d24c from './d24/captions.json';
+import d24l from './d24/lipsync.json';
+import d25s from './d25/spec.json';
+import d25c from './d25/captions.json';
+import d25l from './d25/lipsync.json';
+import d26s from './d26/spec.json';
+import d26c from './d26/captions.json';
+import d26l from './d26/lipsync.json';
+import d27s from './d27/spec.json';
+import d27c from './d27/captions.json';
+import d27l from './d27/lipsync.json';
+import d28s from './d28/spec.json';
+import d28c from './d28/captions.json';
+import d28l from './d28/lipsync.json';
+import d29s from './d29/spec.json';
+import d29c from './d29/captions.json';
+import d29l from './d29/lipsync.json';
+import d30s from './d30/spec.json';
+import d30c from './d30/captions.json';
+import d30l from './d30/lipsync.json';
+
+const mk = (s: unknown, c: unknown, l: unknown): ReelData => {
+  const spec = s as Spec & {tail?: number};
+  const lip = l as Lip;
+  return {spec, captions: c as Captions, lip, frames: lip.open.length + (spec.tail ?? 45)};
+};
+
+export const REELS: Record<string, ReelData> = {
+  d01: mk(d01s, d01c, d01l),
+  d02: mk(d02s, d02c, d02l),
+  d03: mk(d03s, d03c, d03l),
+  d04: mk(d04s, d04c, d04l),
+  d05: mk(d05s, d05c, d05l),
+  d06: mk(d06s, d06c, d06l),
+  d07: mk(d07s, d07c, d07l),
+  d08: mk(d08s, d08c, d08l),
+  d09: mk(d09s, d09c, d09l),
+  d10: mk(d10s, d10c, d10l),
+  d11: mk(d11s, d11c, d11l),
+  d12: mk(d12s, d12c, d12l),
+  d13: mk(d13s, d13c, d13l),
+  d14: mk(d14s, d14c, d14l),
+  d15: mk(d15s, d15c, d15l),
+  d16: mk(d16s, d16c, d16l),
+  d17: mk(d17s, d17c, d17l),
+  d18: mk(d18s, d18c, d18l),
+  d19: mk(d19s, d19c, d19l),
+  d20: mk(d20s, d20c, d20l),
+  d21: mk(d21s, d21c, d21l),
+  d22: mk(d22s, d22c, d22l),
+  d23: mk(d23s, d23c, d23l),
+  d24: mk(d24s, d24c, d24l),
+  d25: mk(d25s, d25c, d25l),
+  d26: mk(d26s, d26c, d26l),
+  d27: mk(d27s, d27c, d27l),
+  d28: mk(d28s, d28c, d28l),
+  d29: mk(d29s, d29c, d29l),
+  d30: mk(d30s, d30c, d30l),
+};

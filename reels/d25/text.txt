@@ -1,0 +1,22 @@
+# Day 25 — AI search (keyword SEARCH)
+Day_25@day
+*AI_search{3}@title [Secret]@secretkw keyword
+*SEARCH@kw
+നിങ്ങളുടെ application-ൽ@app
+[Google]@google പോലെയൊരു *smart_search{2}@smart
+feature *ഉണ്ടാക്കിയാലോ?{2}@make
+User@user *exact_word{2}@exact type ചെയ്തില്ലെങ്കിലും
+[relevant_results]{2}@relevant
+[Semantic_search]{2}@semantic ഉപയോഗിച്ച്
+*meaning@meaning അടിസ്ഥാനമാക്കിയുള്ള
+similarity@sim *കണ്ടെത്താം@find
+[Text_embeddings]{2}@emb ഉപയോഗിച്ച്
+related_content{2}@related *search_ചെയ്യാം{2}@search
+പക്ഷേ *secret@secret
+Semantic_search{2}@sem2 മാത്രം
+എല്ലാ സാഹചര്യങ്ങളിലും *best_അല്ല!{2}@notbest
+[Keyword_search-ഉം]{2}@kws *semantic_search-ഉം{2}@ss
+combine ചെയ്യുന്ന [hybrid_search-ഉം]{2}@hybrid
+പല applications-ലും *useful_ആണ്{2}@useful
+AI_search_guide{4}@guide *വേണോ?
+[SEARCH]@cta എന്ന് comment ചെയ്യൂ

@@ -1,0 +1,25 @@
+# Day 5 — Computer-use AI (keyword AGENT)
+Day_5@day
+*Computer_using_AI{4}@title keyword
+*AGENT@kw
+നിങ്ങളുടെ computer@pc നിങ്ങൾക്ക് പകരം
+[AI]{2}@ai *control_ചെയ്താലോ?{2}@control
+Mouse [click]@click ചെയ്യും
+[Browser]@browser തുറക്കും
+[Forms]@forms fill ചെയ്യും
+ഇത് *future_technology{2}@future മാത്രമല്ല!
+[Computer_using_AI_agents]{5}@agents ഉപയോഗിച്ച്
+Graphical_interface-ൽ{2}@gui
+tasks@tasks *automate_ചെയ്യാം{2}@auto
+ഉദാഹരണത്തിന്
+Websites-ൽ@web നിന്ന് information *collect@collect ചെയ്ത്
+[Reports]@reports *തയ്യാറാക്കാം@prep
+പക്ഷേ AI-ക്ക്{3}@aiperm
+*unlimited_permissions{2}@unlim കൊടുക്കരുത്!
+[Payments]@pay account_changes{2}@acct പോലുള്ള
+sensitive_actions-ന്{2}@sens
+[Human_approval]{2}@human *വേണം!@must
+ഈ technology എങ്ങനെ
+*പ്രവർത്തിക്കുന്നതെന്ന്@how അറിയണോ?
+[AGENT]@cta എന്ന് comment ചെയ്യൂ
+Guide *DM_അയക്കാം{2}@dm

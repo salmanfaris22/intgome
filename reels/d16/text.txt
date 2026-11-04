@@ -1,0 +1,21 @@
+# Day 16 — Database index (keyword INDEX)
+Day_16@day
+*Database_index{2}@title [Secret]@secretkw keyword
+*INDEX@kw
+[4_സെക്കൻഡ്]{2}@4s എടുക്കുന്ന database_query{2}@query
+*milliseconds-ലേക്ക്@ms കുറയ്ക്കാൻ കഴിഞ്ഞാലോ?{2}@could
+ചില സാഹചര്യങ്ങളിൽ ഒരു [index]@index *സഹായിക്കും@help
+*Database_indexing{2}@dbi ഉപയോഗിച്ച്
+[frequently_searched_values]{3}@freq
+കണ്ടെത്തുന്നത് *വേഗത്തിലാക്കാം@faster
+ഉദാഹരണത്തിന്
+*പത്തു_ലക്ഷം{2}@rows records-ഉള്ള table-ൽ@table
+[Email]@email ഉപയോഗിച്ച് user *search@search ചെയ്യുന്നു
+ശരിയായ [index]@right ഉണ്ടെങ്കിൽ
+Query_performance{2}@perf *മെച്ചപ്പെടാം@improve
+പക്ഷേ *secret@secret
+എല്ലാ column-ലും@every [index]@idx2 *ഇടരുത്!@dont
+Indexes@indexes *storage@storage ഉപയോഗിക്കും
+[Writes]@writes slow ആക്കാനും *സാധ്യതയുണ്ട്@slow
+Database_indexing_guide{3}@guide *വേണോ?
+[INDEX]@cta എന്ന് comment ചെയ്യൂ

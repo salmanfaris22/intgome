@@ -1,0 +1,20 @@
+# Day 20 — Cloud GPU (keyword GPU)
+Day_20@day
+*Cloud_GPU{2}@title [Secret]@secretkw keyword
+*GPU@kw
+നിങ്ങളുടെ laptop-ൽ@laptop
+*powerful_GPU{2}@gpu ഇല്ലേ?
+എന്നാലും വലിയ [AI_models]{3}@models
+*experiment_ചെയ്യാം!{2}@exp
+[Cloud_GPU]{2}@cloud ഉപയോഗിച്ച്
+remote_computing_power{3}@remote *rent_ചെയ്യാം{2}@rent
+[AI_inference]{3}@inf [Model_experiments]{2}@mexp
+[Image_generation]{2}@imgen എന്നിവയ്ക്ക്
+ഇത് *ഉപയോഗിക്കാം@use
+പക്ഷേ ഒരു *secret@secret
+[GPU_instance]{2}@inst *idle@idle ആയി
+running-ആണെങ്കിൽ{1} പോലും
+*charge_വരാം!{2}@charge
+അതുകൊണ്ട് [usage]@usage *monitor_ചെയ്യണം{2}@monitor
+Cloud_GPU_guide{3}@guide *വേണോ?
+[GPU]@cta എന്ന് comment ചെയ്യൂ

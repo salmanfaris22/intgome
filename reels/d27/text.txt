@@ -1,0 +1,22 @@
+# Day 27 — GitHub (keyword GITHUB)
+Day_27@day
+*GitHub@title [Secret]@secretkw keyword
+*GITHUB@kw
+Developers-ന്@devs useful-ആയ
+*ആയിരക്കണക്കിന്_tools{2}@thousands
+ഒരിടത്ത് *കിട്ടിയാലോ?@oneplace
+അതും *free-ആയി!@free
+[GitHub_Awesome_Lists]{3}@awesome എന്ന
+*curated@curated resource collections@collections
+explore ചെയ്യാം@explore
+[AI]@ai [DevOps]@devops [Backend]@backend
+[Frontend]@frontend [Cybersecurity]{2}@cyber
+തുടങ്ങി *നിരവധി_topics-ഉണ്ട്{2}@topics
+പക്ഷേ *secret@secret
+GitHub [stars]@stars മാത്രം നോക്കി
+tool *തെരഞ്ഞെടുക്കരുത്!@dont
+[Documentation]@docs *recent_commits{2}@commits
+[Security]@security [License]@license എന്നിവ
+*പരിശോധിക്കണം@check
+Awesome_GitHub_resources{3}@guide *വേണോ?
+[GITHUB]@cta എന്ന് comment ചെയ്യൂ

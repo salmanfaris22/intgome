@@ -1,0 +1,23 @@
+# Day 4 — Redis (keyword REDIS)
+Day_4@day
+*Redis@title [Secret]@secretkw keyword{1}
+*REDIS@kw
+Server_slow{2}@slow ആയാൽ ഉടനെ
+[RAM]@ram കൂട്ടുന്നവരാണോ നിങ്ങൾ?@you
+ചിലപ്പോൾ അതിന് *ആവശ്യമില്ല!@notneed
+ഒരേ database_query{2}@query
+*വീണ്ടും_വീണ്ടും{2}@again execute ചെയ്യുന്നതാണ്
+[bottleneck]@bn എങ്കിൽ
+[Redis]{2}@redis *caching@caching സഹായിക്കും
+ഉദാഹരണത്തിന്
+ആയിരക്കണക്കിന് users@users
+ഒരേ *product_details{2}@product request ചെയ്യുന്നു
+ഓരോ തവണയും database@dbq query ചെയ്യുന്നതിനു പകരം
+[Cached_response]{3}@cached ഉപയോഗിക്കാം
+പക്ഷേ data *update@update ആയാൽ
+Cache [invalidate]@inval ചെയ്യണം
+[Memory_shortage]{2}@mem ആണെങ്കിൽ *RAM_വേണം{2}@needram
+[Repeated_reads]{2}@reads ആണെങ്കിൽ
+*caching@caching2 പരിശോധിക്കാം
+Redis_setup_guide{3}@guide *വേണോ?
+[REDIS]{2}@cta എന്ന് comment ചെയ്യൂ

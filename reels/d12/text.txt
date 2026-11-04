@@ -1,0 +1,23 @@
+# Day 12 — AI video (keyword VIDEO)
+Day_12@day
+*AI_video{3}@title [Secret]@secretkw
+keyword *VIDEO@kw
+ഒരു [photo]@photo കൊടുത്താൽ
+*cinematic_video{2}@cine ഉണ്ടാക്കാൻ കഴിഞ്ഞാലോ?
+[Camera_movement]{2}@cam
+[Lighting]@light
+[Animation]@anim
+*Image-to-video{3}@i2v AI_models{3}@models ഉപയോഗിച്ച്
+Still_images-ൽ{2}@still നിന്ന്
+*short_clips{2}@clips generate ചെയ്യാം
+[Product_videos]{2}@prod [Creative_concepts]{2}@concept
+[Storyboards]{2}@story എന്നിവയ്ക്ക് useful ആണ്
+പക്ഷേ@but
+Professional result-ന്റെ@pro *secret@secret
+[prompt]@prompt *മാത്രമല്ല!@notonly
+Good_reference_image{3}@ref
+*Controlled_motion{2}@motion [Editing]@edit
+എന്നിവയും *പ്രധാനമാണ്@important
+AI_video-ൽ{3}@aiv *visual_mistakes{2}@mistakes ഉണ്ടാകാം
+Cinematic_AI_prompts{4}@prompts *വേണോ?
+[VIDEO]@cta എന്ന് comment ചെയ്യൂ

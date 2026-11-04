@@ -1,0 +1,27 @@
+# Day 3 — Vibe coding (keyword VIBE)
+Day_03{3}@day
+*Vibe_coding{2}@title [Secret]@secretkw keyword{1}
+*VIBE@kw
+Coding അറിയാതെ ഒരു [application]@app
+ഉണ്ടാക്കാൻ *കഴിഞ്ഞാലോ?@could
+അതും നിങ്ങളുടെ [idea]@idea
+*പറഞ്ഞുകൊടുത്താൽ_മാത്രം{2}@tell
+ഇതാണ് *Vibe_coding!{2}@vibe
+AI_tools{3}@tools ഉപയോഗിച്ച്
+[UI]{2}@ui
+[API]{3}@api
+[Database]@db integration@integ എന്നിവയുടെ
+code@code *generate_ചെയ്യാം{2}@gen
+പക്ഷേ ഒരു *secret@secret ഉണ്ട്
+ഒറ്റ [prompt]-ൽ@prompt complete application@complete
+ചോദിക്കുന്നതിനേക്കാൾ
+ഓരോ feature@feature *വേറെവേറെ@sep build ചെയ്യുന്നതാണ്
+നിയന്ത്രിക്കാൻ *എളുപ്പം@easy
+ആദ്യം [UI]{2}@s1
+പിന്നെ [API]{3}@s2
+പിന്നെ [Database]@s3
+അവസാനം *Testing@s4
+AI{2} എഴുതിയ code *പരിശോധിക്കണം!@check
+Complete workflow@wf *വേണോ?
+[VIBE]@cta എന്ന് comment ചെയ്യൂ
+Link *DM_അയക്കാം{2}@dm

@@ -1,0 +1,212 @@
+[
+ {
+  "n": 1,
+  "file": "source/voice_A.mp3",
+  "start": 0.0,
+  "end": 39.63,
+  "dur": 39.63
+ },
+ {
+  "n": 2,
+  "file": "source/voice_A.mp3",
+  "start": 39.63,
+  "end": 78.28,
+  "dur": 38.65
+ },
+ {
+  "n": 3,
+  "file": "source/voice_A.mp3",
+  "start": 78.28,
+  "end": 115.45,
+  "dur": 37.17
+ },
+ {
+  "n": 4,
+  "file": "source/voice_A.mp3",
+  "start": 115.45,
+  "end": 151.8,
+  "dur": 36.35
+ },
+ {
+  "n": 5,
+  "file": "source/voice_A.mp3",
+  "start": 151.8,
+  "end": 188.65,
+  "dur": 36.85
+ },
+ {
+  "n": 6,
+  "file": "source/voice_A.mp3",
+  "start": 188.65,
+  "end": 224.25,
+  "dur": 35.6
+ },
+ {
+  "n": 7,
+  "file": "source/voice_A.mp3",
+  "start": 224.25,
+  "end": 258.49,
+  "dur": 34.24
+ },
+ {
+  "n": 8,
+  "file": "source/voice_A.mp3",
+  "start": 258.49,
+  "end": 289.7,
+  "dur": 31.21
+ },
+ {
+  "n": 9,
+  "file": "source/voice_A.mp3",
+  "start": 289.7,
+  "end": 323.25,
+  "dur": 33.55
+ },
+ {
+  "n": 10,
+  "file": "source/voice_A.mp3",
+  "start": 323.25,
+  "end": 355.31,
+  "dur": 32.06
+ },
+ {
+  "n": 11,
+  "file": "source/voice_A.mp3",
+  "start": 355.31,
+  "end": 386.36,
+  "dur": 31.05
+ },
+ {
+  "n": 12,
+  "file": "source/voice_A.mp3",
+  "start": 386.36,
+  "end": 419.08,
+  "dur": 32.72
+ },
+ {
+  "n": 13,
+  "file": "source/voice_A.mp3",
+  "start": 419.08,
+  "end": 450.28,
+  "dur": 31.2
+ },
+ {
+  "n": 14,
+  "file": "source/voice_A.mp3",
+  "start": 450.28,
+  "end": 480.6,
+  "dur": 30.32
+ },
+ {
+  "n": 15,
+  "file": "source/voice_A.mp3",
+  "start": 480.6,
+  "end": 513.306,
+  "dur": 32.71
+ },
+ {
+  "n": 16,
+  "file": "source/voice_B.mp3",
+  "start": 0.0,
+  "end": 37.38,
+  "dur": 37.38
+ },
+ {
+  "n": 17,
+  "file": "source/voice_B.mp3",
+  "start": 37.38,
+  "end": 67.53,
+  "dur": 30.15
+ },
+ {
+  "n": 18,
+  "file": "source/voice_B.mp3",
+  "start": 67.53,
+  "end": 102.82,
+  "dur": 35.29
+ },
+ {
+  "n": 19,
+  "file": "source/voice_B.mp3",
+  "start": 102.82,
+  "end": 133.72,
+  "dur": 30.9
+ },
+ {
+  "n": 20,
+  "file": "source/voice_B.mp3",
+  "start": 133.72,
+  "end": 162.18,
+  "dur": 28.46
+ },
+ {
+  "n": 21,
+  "file": "source/voice_B.mp3",
+  "start": 162.18,
+  "end": 191.86,
+  "dur": 29.68
+ },
+ {
+  "n": 22,
+  "file": "source/voice_B.mp3",
+  "start": 191.86,
+  "end": 223.37,
+  "dur": 31.51
+ },
+ {
+  "n": 23,
+  "file": "source/voice_B.mp3",
+  "start": 223.37,
+  "end": 253.93,
+  "dur": 30.56
+ },
+ {
+  "n": 24,
+  "file": "source/voice_B.mp3",
+  "start": 253.93,
+  "end": 282.61,
+  "dur": 28.68
+ },
+ {
+  "n": 25,
+  "file": "source/voice_B.mp3",
+  "start": 282.61,
+  "end": 316.32,
+  "dur": 33.71
+ },
+ {
+  "n": 26,
+  "file": "source/voice_B.mp3",
+  "start": 316.32,
+  "end": 347.4,
+  "dur": 31.08
+ },
+ {
+  "n": 27,
+  "file": "source/voice_B.mp3",
+  "start": 347.4,
+  "end": 378.52,
+  "dur": 31.12
+ },
+ {
+  "n": 28,
+  "file": "source/voice_B.mp3",
+  "start": 378.52,
+  "end": 409.12,
+  "dur": 30.6
+ },
+ {
+  "n": 29,
+  "file": "source/voice_B.mp3",
+  "start": 409.12,
+  "end": 444.12,
+  "dur": 35.0
+ },
+ {
+  "n": 30,
+  "file": "source/voice_B.mp3",
+  "start": 444.12,
+  "end": 486.269,
+  "dur": 42.15
+ }
+]

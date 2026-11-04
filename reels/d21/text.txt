@@ -1,0 +1,20 @@
+# Day 21 — Multi-agent (keyword MULTI)
+Day_21@day
+*Multi-agent{2}@title [Secret]@secretkw
+keyword *MULTI@kw
+ഒരു [AI]@ai1 മറ്റൊരു [AI-യെ]@ai2
+ജോലി *ഏൽപ്പിച്ചാലോ?@delegate
+ഒരാൾ *research@research ചെയ്യുന്നു
+മറ്റൊരാൾ *code@code എഴുതുന്നു
+മൂന്നാമൻ *review@review ചെയ്യുന്നു
+ഇതാണ് [Multi-agent_systems]{3}@mas എന്ന concept
+Different_roles{2}@roles ഉള്ള agents@agents
+ഒരുമിച്ച് *complex_tasks{2}@complex
+solve ചെയ്യാൻ *coordinate_ചെയ്യുന്നു{2}@coord
+പക്ഷേ *secret@secret
+കൂടുതൽ agents ഉണ്ടെന്നതുകൊണ്ട്@more മാത്രം
+result *better_ആകില്ല!{2}@notbetter
+[Coordination_cost]{2}@cost
+[Error_handling]{2}@errors *പ്രധാനമാണ്@important
+Multi-agent_guide{3}@guide *വേണോ?
+[MULTI]@cta എന്ന് comment ചെയ്യൂ

@@ -1,0 +1,21 @@
+# Day 13 — RAG (keyword RAG)
+Day_13@day
+*RAG@title [Secret]@secretkw keyword
+*RAG@kw
+നിങ്ങളുടെ *ആയിരക്കണക്കിന്@thousands
+[PDF]{3}@pdf files@files
+AI-ക്ക്{3}@ai *അറിയാമായിരുന്നെങ്കിലോ?@knew
+അതിന് model@model *വീണ്ടും_train{2}@retrain ചെയ്യേണ്ടതില്ല!@noneed
+[RAG]{3}@rag
+*Retrieval_Augmented_Generation{3}@full
+[Relevant_documents]{2}@rel *search@search ചെയ്ത് കണ്ടെത്തും
+പിന്നീട് [LLM]{3}@llm ആ information@info ഉപയോഗിച്ച്
+*answer@answer തയ്യാറാക്കും
+ഇതാണ്@this
+പല *custom_knowledge_assistants-ന്റെയും{3}@assist
+പിന്നിലുള്ള idea@idea
+പക്ഷേ@but
+[Retrieval]@ret *തെറ്റിയാൽ@wrong
+answer-ഉം{2}@ans2 *തെറ്റാം!@wrong2
+[PDF]{3}@pdf2 AI_chatbot{4}@bot *build_ചെയ്യണോ?{2}@build
+[RAG]@cta എന്ന് comment ചെയ്യൂ

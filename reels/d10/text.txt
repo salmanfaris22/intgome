@@ -1,0 +1,21 @@
+# Day 10 — Million users (keyword SCALE)
+Day_10@day
+*Million_users{2}@title
+[Secret]@secretkw keyword
+*SCALE@kw
+നിങ്ങളുടെ application-ലേക്ക്@app
+*പത്തു_ലക്ഷം{2}@million users വന്നാൽ@users
+[server_crash]{2}@crash ആകുമോ?
+അത് *architecture@arch അനുസരിച്ചിരിക്കും
+[Load_balancer]{2}@lb [Caching]@cache
+[Database_indexing]{2}@index [Horizontal_scaling]{2}@hscale
+എന്നിവ ഉപയോഗിച്ച് *traffic@traffic handle ചെയ്യാൻ
+System@sys *design_ചെയ്യാം{2}@design
+പക്ഷേ ഒരു *important_secret{2}@secret
+പത്തു_ലക്ഷം{2} [registered]@reg users-ഉം
+പത്തു_ലക്ഷം{2} [simultaneous]@sim users-ഉം
+*ഒന്നല്ല!@notsame
+Actual *traffic_pattern{2}@pattern മനസ്സിലാക്കാതെ
+[Server_size]{2}@size *തീരുമാനിക്കരുത്!@dont
+Scalable_architecture_guide{3}@guide *വേണോ?
+[SCALE]@cta എന്ന് comment ചെയ്യൂ

@@ -1,0 +1,29 @@
+{
+  "n": 4, "title": "REDIS", "keyword": "REDIS", "pack": 3, "tail": 50,
+  "worlds": [[0, "red"], [3.9, "blue"], [8.85, "ember"], [13.1, "red"], [14.8, "violet"], [19.4, "teal"], [23.8, "gold"], [27.5, "blue"], [32.9, "red"]],
+  "sections": [[0, "REDIS"], [3.9, "SERVER SLOW?"], [8.85, "THE BOTTLENECK"], [13.1, "REDIS CACHE"], [14.8, "EXAMPLE"], [19.4, "CACHED RESPONSE"], [23.8, "INVALIDATE"], [27.5, "WHICH FIX?"], [32.9, "COMMENT"]],
+  "ghosts": [[3.9, 8.8, "SLOW"], [8.85, 13.0, "QUERY"], [19.4, 23.8, "CACHE"]],
+  "poses": [[0, "wave", "happy"], [1.13, "present", "cool"], [2.98, "point", "wow"], [3.92, "shrug", "sly"], [5.6, "point", "wow"], [7.19, "stop", "sly"], [8.89, "think", "neutral"], [11.0, "presentL", "wince"], [13.15, "cheer", "cool"], [14.83, "present", "happy"], [17.0, "point", "happy"], [19.48, "presentL", "neutral"], [22.15, "cheer", "happy"], [23.84, "stop", "sly"], [25.94, "point", "cool"], [27.61, "present", "neutral"], [30.2, "presentL", "happy"], [33.04, "wave", "happy"], [34.62, "point", "cool"]],
+  "places": [[0, "c", 0.8], [3.9, "l", 0.72], [8.85, "r", 0.72], [13.1, "c", 0.82], [14.8, "c", 0.76], [19.4, "c", 0.76], [23.8, "l", 0.72], [27.5, "r", 0.72], [32.9, "c", 0.8]],
+  "hits": [0.1, "@kw", 3.9, "@notneed", "@bn", "@redis", "@cached", "@inval", "@cta"],
+  "cams": [[0, "push"], [3.9, "whipR"], [4.3, "orbitL"], [8.85, "tilt"], [13.1, "punch"], [13.6, "push"], [14.8, "whipL"], [15.2, "rise"], [19.4, "orbitR"], [23.8, "whipR"], [24.2, "drift"], [27.5, "roll"], [28.0, "push"], [32.9, "punch"], [33.4, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 3.9, "kwAt": "@kw", "finish": "chrome"},
+    {"type": "prop", "a": 3.9, "b": 8.85, "kind": "server", "s": 1.0,
+     "labels": [{"t": "@slow", "text": "Server slow", "icon": "clock", "x": 60, "y": 320, "tone": "bad"}, {"t": "@ram", "text": "+ RAM?", "icon": "chip", "x": 690, "y": 400}]},
+    {"type": "stamp", "a": "@notneed", "b": 8.85, "text": "NOT ALWAYS", "color": "gold", "y": 600},
+    {"type": "terminal", "a": 8.85, "b": 13.1, "title": "db.log", "lines": [
+      {"t": "@query", "text": "SELECT * FROM products WHERE id=42", "kind": "out"},
+      {"t": "@again", "text": "SELECT * FROM products WHERE id=42", "kind": "out"},
+      {"t": "@again+0.45", "text": "SELECT * FROM products WHERE id=42", "kind": "out"},
+      {"t": "@bn", "text": "same query again -> bottleneck", "kind": "err"}]},
+    {"type": "word", "a": 13.1, "b": 14.8, "text": "REDIS CACHE", "finish": "accent", "size": 1.15},
+    {"type": "stat", "a": 14.8, "b": 19.4, "t": "@users", "from": 0, "to": 5000, "suffix": "+", "label": "users · same product", "icon": "users", "finish": "white"},
+    {"type": "compare", "a": 19.4, "b": 23.8, "lt": "@dbq", "rt": "@cached", "vs": "VS",
+     "left": {"title": "DB query", "icon": "db", "sub": "every time", "tone": "bad"},
+     "right": {"title": "Cached", "icon": "bolt", "sub": "instant response", "tone": "good"}},
+    {"type": "flow", "a": 23.8, "b": 27.5, "nodes": [{"t": "@update", "icon": "upload", "label": "Data updated"}, {"t": "@inval", "icon": "swap", "label": "Invalidate cache", "tone": "gold"}, {"t": "@inval+0.7", "icon": "check", "label": "Fresh data", "tone": "good"}]},
+    {"type": "list", "a": 27.5, "b": 32.9, "title": "WHICH FIX?", "items": [{"t": "@mem", "text": "Memory shortage → RAM", "icon": "chip"}, {"t": "@reads", "text": "Repeated reads → Cache", "icon": "bolt", "tone": "good"}]},
+    {"type": "end", "a": 32.9, "b": 45, "kwAt": "@cta", "followAt": "@cta+1.0"}
+  ]
+}

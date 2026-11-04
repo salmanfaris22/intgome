@@ -1,0 +1,20 @@
+{
+  "n": 15, "title": "AI CODE SECURITY", "keyword": "SECURE", "pack": 2, "fx": "type", "bg": "stars", "tail": 50,
+  "worlds": [[0, "red"], [5.0, "ember"], [9.0, "red"], [11.6, "violet"], [18.4, "gold"], [22.2, "green"], [25.6, "blue"], [29.5, "red"]],
+  "sections": [[0, "AI CODE SECURITY"], [5.0, "STRAIGHT TO PROD?"], [9.0, "VULNERABILITY"], [11.6, "COMMON ISSUES"], [18.4, "NOT DONE YET"], [22.2, "REVIEW TEST SCAN"], [25.6, "CRITICAL AREAS"], [29.5, "COMMENT"]],
+  "ghosts": [[5.0, 9.0, "DEPLOY"], [11.6, 18.4, "INJECTION"], [22.2, 25.6, "SCAN"]],
+  "poses": [[0, "wave", "happy"], [1.41, "present", "cool"], [4.2, "point", "wow"], [5.13, "think", "shock"], [7.0, "shrug", "wow"], [9.09, "stop", "wince"], [11.69, "present", "neutral"], [13.28, "point", "wince"], [14.55, "presentL", "neutral"], [16.06, "point", "sly"], [18.5, "hips", "cool"], [20.5, "point", "cool"], [22.31, "present", "happy"], [23.27, "presentL", "happy"], [24.1, "cheer", "happy"], [25.7, "point", "neutral"], [27.45, "present", "cool"], [29.63, "wave", "happy"], [31.22, "point", "cool"]],
+  "places": [[0, "c", 0.8], [5.0, "l", 0.72], [9.0, "c", 0.78], [11.6, "r", 0.72], [18.4, "c", 0.82], [22.2, "c", 0.76], [25.6, "c", 0.76], [29.5, "c", 0.8]],
+  "hits": [0.1, "@kw", 5.0, "@deploy", "@if", "@secrets", "@notend", "@scan", "@cta"],
+  "cams": [[0, "push"], [5.0, "whipR"], [5.4, "drift"], [9.0, "roll"], [9.5, "push"], [11.6, "whipL"], [12.0, "orbitR"], [18.4, "punch"], [18.9, "push"], [22.2, "whipR"], [22.6, "rise"], [25.6, "orbitL"], [29.5, "punch"], [30.0, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 5.0, "kwAt": "@kw", "finish": "accent"},
+    {"type": "terminal", "a": 5.0, "b": 9.0, "title": "deploy", "lines": [{"t": "@code", "text": "git push production", "kind": "cmd"}, {"t": "@deploy", "text": "AI code deployed. No review.", "kind": "err"}]},
+    {"type": "prop", "a": 9.0, "b": 11.6, "kind": "lock", "s": 1.1, "openAt": "@if", "labels": [{"t": "@vuln", "text": "Vulnerability", "icon": "bug", "x": 60, "y": 330, "tone": "bad"}]},
+    {"type": "list", "a": 11.6, "b": 18.4, "title": "FOUND IN AI CODE TOO", "items": [{"t": "@sqli", "text": "SQL injection", "icon": "db", "tone": "bad"}, {"t": "@auth", "text": "Insecure auth", "icon": "unlock", "tone": "bad"}, {"t": "@secrets", "text": "Exposed secrets", "icon": "key", "tone": "bad"}]},
+    {"type": "word", "a": 18.4, "b": 22.2, "text": "NOT DONE", "finish": "accent", "size": 1.3},
+    {"type": "flow", "a": 22.2, "b": 25.6, "nodes": [{"t": "@review", "icon": "search", "label": "Review"}, {"t": "@test", "icon": "bug", "label": "Test"}, {"t": "@scan", "icon": "shield", "label": "Security scan", "tone": "good"}]},
+    {"type": "icons", "a": 25.6, "b": 29.5, "items": [{"t": "@data", "icon": "user", "label": "User data"}, {"t": "@pay", "icon": "money", "label": "Payments"}, {"t": "@auth2", "icon": "lock", "label": "Auth"}]},
+    {"type": "end", "a": 29.5, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

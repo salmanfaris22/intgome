@@ -1,0 +1,23 @@
+{
+  "n": 18, "title": "AI MEMORY", "keyword": "MEMORY", "pack": 5, "fx": "pop", "bg": "rings", "tail": 50,
+  "worlds": [[0, "violet"], [4.3, "blue"], [8.3, "teal"], [10.4, "violet"], [15.4, "gold"], [23.3, "green"], [28.6, "red"], [31.9, "violet"]],
+  "sections": [[0, "AI MEMORY"], [4.3, "IT REMEMBERS"], [8.3, "YOUR PROJECTS"], [10.4, "STORE + RETRIEVE"], [15.4, "SHORT VS LONG"], [23.3, "WHY AGENTS NEED IT"], [28.6, "PRIVACY"], [31.9, "COMMENT"]],
+  "ghosts": [[4.3, 8.3, "RECALL"], [10.4, 15.4, "MEMORY"], [23.3, 28.6, "AGENTS"]],
+  "poses": [[0, "wave", "happy"], [1.32, "present", "cool"], [3.66, "point", "wow"], [4.5, "think", "wow"], [7.26, "cheer", "happy"], [8.49, "present", "happy"], [10.49, "point", "cool"], [12.5, "presentL", "happy"], [14.17, "present", "happy"], [15.53, "presentL", "neutral"], [17.5, "point", "happy"], [19.6, "present", "neutral"], [21.5, "point", "happy"], [23.47, "think", "neutral"], [26.03, "cheer", "happy"], [28.7, "stop", "sly"], [29.31, "point", "neutral"], [32.03, "wave", "happy"], [33.58, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.3, "c", 0.76], [8.3, "c", 0.78], [10.4, "c", 0.76], [15.4, "c", 0.76], [23.3, "l", 0.72], [28.6, "r", 0.72], [31.9, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.3, "@remember", "@projects", "@retrieve", "@long", "@zero", "@important", "@cta"],
+  "cams": [[0, "push"], [4.3, "whipR"], [4.7, "drift"], [8.3, "punch"], [8.8, "push"], [10.4, "whipL"], [10.8, "orbitR"], [15.4, "tilt"], [23.3, "roll"], [23.8, "orbitL"], [28.6, "whipR"], [29.0, "push"], [31.9, "punch"], [32.4, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.3, "kwAt": "@kw", "finish": "accent"},
+    {"type": "chat", "a": 4.3, "b": 8.3, "model": "AI with memory", "icon": "layers",
+     "q": {"t": "@things", "text": "What stack is my project on?"}, "ans": {"t": "@remember", "text": "Next.js + MongoDB, you told me last month."}},
+    {"type": "cards", "a": 8.3, "b": 10.4, "layout": "row", "items": [{"t": "@projects", "icon": "folder", "title": "Your projects", "sub": "remembered", "tone": "good"}]},
+    {"type": "flow", "a": 10.4, "b": 15.4, "nodes": [{"t": "@rel", "icon": "doc", "label": "Relevant info"}, {"t": "@store", "icon": "db", "label": "Stored"}, {"t": "@retrieve", "icon": "search", "label": "Retrieved later", "tone": "good"}]},
+    {"type": "compare", "a": 15.4, "b": 23.3, "lt": "@short", "rt": "@long", "vs": "VS",
+     "left": {"title": "Short-term", "icon": "chat", "sub": "this conversation"},
+     "right": {"title": "Long-term", "icon": "layers", "sub": "useful info, later", "tone": "good"}},
+    {"type": "prop", "a": 23.3, "b": 28.6, "kind": "robot", "s": 1.0, "labels": [{"t": "@agents", "text": "AI agents", "icon": "agents", "x": 60, "y": 320}, {"t": "@zero", "text": "No restart from zero", "icon": "check", "x": 380, "y": 640, "tone": "good", "solid": true}]},
+    {"type": "list", "a": 28.6, "b": 31.9, "title": "MUST HAVE", "items": [{"t": "@privacy", "text": "Privacy", "icon": "eye", "tone": "gold"}, {"t": "@delete", "text": "Delete controls", "icon": "x", "tone": "gold"}]},
+    {"type": "end", "a": 31.9, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

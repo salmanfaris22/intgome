@@ -1,0 +1,22 @@
+{
+  "n": 28, "title": "EDGE AI", "keyword": "EDGE", "pack": 3, "fx": "marker", "bg": "stars", "tail": 50,
+  "worlds": [[0, "teal"], [4.1, "blue"], [7.9, "red"], [10.4, "violet"], [14.4, "gold"], [19.1, "green"], [24.8, "ember"], [27.1, "teal"]],
+  "sections": [[0, "EDGE AI"], [4.1, "NO INTERNET"], [7.9, "NO CLOUD UPLOAD"], [10.4, "ON-DEVICE AI"], [14.4, "WHERE IT RUNS"], [19.1, "THE SECRET"], [24.8, "LIMITS"], [27.1, "COMMENT"]],
+  "ghosts": [[4.1, 10.4, "OFFLINE"], [10.4, 19.1, "DEVICE"], [19.1, 24.8, "LATENCY"]],
+  "poses": [[0, "wave", "happy"], [1.47, "present", "cool"], [3.43, "point", "wow"], [4.18, "think", "wow"], [6.0, "presentL", "happy"], [8.01, "stop", "cool"], [10.49, "present", "happy"], [12.5, "point", "cool"], [14.46, "presentL", "happy"], [16.5, "present", "happy"], [19.23, "hips", "sly"], [20.28, "point", "happy"], [23.12, "cheer", "happy"], [24.88, "stop", "sly"], [27.22, "wave", "happy"], [28.9, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.1, "r", 0.72], [7.9, "c", 0.76], [10.4, "l", 0.72], [14.4, "c", 0.76], [19.1, "r", 0.72], [24.8, "c", 0.78], [27.1, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.1, "@recognize", "@novideo", "@run", "@sensors", "@privacy", "@careful", "@cta"],
+  "cams": [[0, "push"], [4.1, "whipL"], [4.5, "orbitR"], [7.9, "whipR"], [8.3, "drift"], [10.4, "rise"], [14.4, "orbitL"], [19.1, "tilt"], [24.8, "roll"], [25.3, "push"], [27.1, "punch"], [27.6, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.1, "kwAt": "@kw", "finish": "accent"},
+    {"type": "prop", "a": 4.1, "b": 7.9, "kind": "camera", "s": 1.1, "labels": [{"t": "@nonet", "text": "No internet", "icon": "wifiOff", "x": 60, "y": 320}, {"t": "@objects", "text": "Detects objects", "icon": "eye", "x": 600, "y": 570, "tone": "good"}]},
+    {"type": "compare", "a": 7.9, "b": 10.4, "lt": "@cloud", "rt": "@novideo", "vs": "VS",
+     "left": {"title": "Cloud AI", "icon": "cloud", "sub": "video uploaded", "tone": "bad"},
+     "right": {"title": "Edge AI", "icon": "chip", "sub": "stays on device", "tone": "good"}},
+    {"type": "prop", "a": 10.4, "b": 14.4, "kind": "chip", "s": 1.0, "labels": [{"t": "@local", "text": "On the device", "icon": "chip", "x": 60, "y": 320}, {"t": "@run", "text": "Runs locally", "icon": "check", "x": 640, "y": 570, "tone": "good"}]},
+    {"type": "icons", "a": 14.4, "b": 19.1, "items": [{"t": "@cams", "icon": "video", "label": "Smart cameras"}, {"t": "@mobile", "icon": "phone", "label": "Mobiles"}, {"t": "@sensors", "icon": "gauge", "label": "Industrial sensors"}]},
+    {"type": "bars", "a": 19.1, "b": 24.8, "title": "IN SOME APPS (EXAMPLE)", "items": [{"label": "Network latency", "v": 25, "t": "@latency", "tone": "good", "text": "lower"}, {"label": "Privacy", "v": 90, "t": "@privacy", "tone": "good", "text": "better"}]},
+    {"type": "cards", "a": 24.8, "b": 27.1, "layout": "row", "items": [{"t": "@hw", "icon": "chip", "title": "Hardware limits", "sub": "plan for them", "tone": "gold"}]},
+    {"type": "end", "a": 27.1, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

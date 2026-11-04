@@ -1,0 +1,24 @@
+# Day 6 — PWA (keyword PWA)
+Day_6@day
+*PWA{3}@title [Secret]@secretkw keyword{1}
+*PWA{3}@kw
+നിങ്ങളുടെ [website]@site ഒരു
+*mobile_app{2}@app പോലെ
+install_ചെയ്യാൻ{2}@install കഴിഞ്ഞാലോ?
+അതിന്_എല്ലായ്പ്പോഴും{1}
+separate [Android_app]{2}@android *വേണ്ട!@noneed
+*Progressive_Web_App{2}@pwa
+അതായത് [PWA]{3}@pwa2 ഉപയോഗിച്ച്
+*installable@installable website experience@exp നൽകാം
+[Home_screen_icon]{3}@icon caching@cache
+ചില *offline_features{2}@offline എന്നിവ
+implement ചെയ്യാം
+ഇതിലെ *secret@secret
+നിങ്ങളുടെ *existing@existing web_technology{2}@webtech
+തന്നെ ഉപയോഗിക്കാം
+പക്ഷേ എല്ലാ *native_mobile_features-ഉം{3}@native
+എല്ലാ [browsers-ലും]@browsers
+support ചെയ്യണമെന്നില്ല@notall
+[React]@react website PWA{2} *ആക്കണോ?@make
+[PWA]{4}@cta എന്ന് comment ചെയ്യൂ
+Tutorial *DM_അയക്കാം{2}@dm

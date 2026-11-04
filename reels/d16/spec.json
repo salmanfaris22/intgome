@@ -1,0 +1,438 @@
+{
+ "n": 16,
+ "title": "DATABASE INDEX",
+ "keyword": "INDEX",
+ "pack": 3,
+ "fx": "flip",
+ "bg": "dots",
+ "tail": 50,
+ "worlds": [
+  [
+   0,
+   "blue"
+  ],
+  [
+   4.4,
+   "red"
+  ],
+  [
+   9.0,
+   "teal"
+  ],
+  [
+   12.0,
+   "violet"
+  ],
+  [
+   17.0,
+   "blue"
+  ],
+  [
+   22.3,
+   "green"
+  ],
+  [
+   25.6,
+   "gold"
+  ],
+  [
+   29.4,
+   "red"
+  ],
+  [
+   33.6,
+   "blue"
+  ]
+ ],
+ "sections": [
+  [
+   0,
+   "DATABASE INDEX"
+  ],
+  [
+   4.4,
+   "4 SECONDS TO MS"
+  ],
+  [
+   9.0,
+   "INDEX HELPS"
+  ],
+  [
+   12.0,
+   "HOW TO INDEX"
+  ],
+  [
+   17.0,
+   "EXAMPLE"
+  ],
+  [
+   22.3,
+   "PERFORMANCE"
+  ],
+  [
+   25.6,
+   "THE SECRET"
+  ],
+  [
+   29.4,
+   "THE COST"
+  ],
+  [
+   33.6,
+   "COMMENT"
+  ]
+ ],
+ "ghosts": [
+  [
+   4.4,
+   9.0,
+   "SLOW"
+  ],
+  [
+   12.0,
+   17.0,
+   "INDEX"
+  ],
+  [
+   29.4,
+   33.6,
+   "COST"
+  ]
+ ],
+ "poses": [
+  [
+   0,
+   "wave",
+   "happy"
+  ],
+  [
+   1.33,
+   "present",
+   "cool"
+  ],
+  [
+   3.57,
+   "point",
+   "wow"
+  ],
+  [
+   4.48,
+   "think",
+   "wow"
+  ],
+  [
+   6.5,
+   "presentL",
+   "happy"
+  ],
+  [
+   9.18,
+   "point",
+   "cool"
+  ],
+  [
+   12.12,
+   "present",
+   "happy"
+  ],
+  [
+   14.5,
+   "point",
+   "happy"
+  ],
+  [
+   17.01,
+   "idle",
+   "neutral"
+  ],
+  [
+   18.1,
+   "presentL",
+   "neutral"
+  ],
+  [
+   19.98,
+   "point",
+   "happy"
+  ],
+  [
+   22.44,
+   "present",
+   "happy"
+  ],
+  [
+   23.85,
+   "cheer",
+   "happy"
+  ],
+  [
+   25.73,
+   "hips",
+   "sly"
+  ],
+  [
+   27.31,
+   "stop",
+   "sly"
+  ],
+  [
+   29.58,
+   "presentL",
+   "neutral"
+  ],
+  [
+   31.51,
+   "shrug",
+   "wince"
+  ],
+  [
+   33.8,
+   "wave",
+   "happy"
+  ],
+  [
+   35.64,
+   "point",
+   "cool"
+  ]
+ ],
+ "places": [
+  [
+   0,
+   "c",
+   0.8
+  ],
+  [
+   4.4,
+   "c",
+   0.76
+  ],
+  [
+   9.0,
+   "l",
+   0.72
+  ],
+  [
+   12.0,
+   "r",
+   0.72
+  ],
+  [
+   17.0,
+   "c",
+   0.78
+  ],
+  [
+   22.3,
+   "c",
+   0.76
+  ],
+  [
+   25.6,
+   "c",
+   0.82
+  ],
+  [
+   29.4,
+   "l",
+   0.72
+  ],
+  [
+   33.6,
+   "c",
+   0.8
+  ]
+ ],
+ "hits": [
+  0.1,
+  "@kw",
+  4.4,
+  "@ms",
+  "@help",
+  "@freq",
+  "@rows",
+  "@improve",
+  "@dont",
+  "@slow",
+  "@cta"
+ ],
+ "cams": [
+  [
+   0,
+   "push"
+  ],
+  [
+   4.4,
+   "whipL"
+  ],
+  [
+   4.8,
+   "orbitR"
+  ],
+  [
+   9.0,
+   "tilt"
+  ],
+  [
+   12.0,
+   "whipR"
+  ],
+  [
+   12.4,
+   "drift"
+  ],
+  [
+   17.0,
+   "rise"
+  ],
+  [
+   22.3,
+   "orbitL"
+  ],
+  [
+   25.6,
+   "punch"
+  ],
+  [
+   26.1,
+   "push"
+  ],
+  [
+   29.4,
+   "roll"
+  ],
+  [
+   29.9,
+   "push"
+  ],
+  [
+   33.6,
+   "punch"
+  ],
+  [
+   34.1,
+   "pull"
+  ]
+ ],
+ "scenes": [
+  {
+   "type": "hook",
+   "a": 0,
+   "b": 4.4,
+   "kwAt": "@kw",
+   "finish": "white"
+  },
+  {
+   "type": "compare",
+   "a": 4.4,
+   "b": 9.0,
+   "lt": "@4s",
+   "rt": "@ms",
+   "vs": "→",
+   "left": {
+    "title": "No index",
+    "icon": "clock",
+    "sub": "4 seconds",
+    "tone": "bad"
+   },
+   "right": {
+    "title": "With index",
+    "icon": "bolt",
+    "sub": "milliseconds",
+    "tone": "good"
+   }
+  },
+  {
+   "type": "prop",
+   "a": 9.0,
+   "b": 12.0,
+   "kind": "db",
+   "s": 1.0,
+   "labels": [
+    {
+     "t": "@index",
+     "text": "Index",
+     "icon": "list",
+     "x": 640,
+     "y": 340,
+     "solid": true
+    }
+   ]
+  },
+  {
+   "type": "code",
+   "a": 12.0,
+   "b": 17.0,
+   "title": "schema.sql",
+   "lines": [
+    {
+     "t": "@dbi",
+     "text": "CREATE INDEX idx_users_email"
+    },
+    {
+     "t": "@freq",
+     "text": "  ON users (email);"
+    }
+   ]
+  },
+  {
+   "type": "stat",
+   "a": 17.0,
+   "b": 22.3,
+   "t": "@rows",
+   "from": 0,
+   "to": 1000000,
+   "label": "rows · search by email",
+   "icon": "search",
+   "finish": "white",
+   "dur": 28
+  },
+  {
+   "type": "gauge",
+   "a": 22.3,
+   "b": 25.6,
+   "t": "@right",
+   "from": 15,
+   "to": 92,
+   "label": "QUERY SPEED",
+   "text": "FAST"
+  },
+  {
+   "type": "word",
+   "a": 25.6,
+   "b": 29.4,
+   "text": "NOT EVERY\nCOLUMN",
+   "finish": "accent",
+   "size": 1.15
+  },
+  {
+   "type": "bars",
+   "a": 29.4,
+   "b": 33.6,
+   "title": "THE COST OF INDEXES",
+   "items": [
+    {
+     "label": "Storage",
+     "v": 72,
+     "t": "@storage",
+     "tone": "gold",
+     "text": "more"
+    },
+    {
+     "label": "Write speed",
+     "v": 38,
+     "t": "@writes",
+     "tone": "bad",
+     "text": "slower"
+    }
+   ]
+  },
+  {
+   "type": "end",
+   "a": 33.6,
+   "b": 45,
+   "kwAt": "@cta",
+   "followAt": "@cta+0.9"
+  }
+ ]
+}

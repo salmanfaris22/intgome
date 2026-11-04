@@ -1,0 +1,23 @@
+{
+  "n": 11, "title": "VOICE CLONING", "keyword": "VOICE", "pack": 4, "fx": "type", "bg": "rings", "tail": 50,
+  "worlds": [[0, "pink"], [4.3, "violet"], [9.2, "blue"], [11.0, "teal"], [17.0, "gold"], [21.0, "blue"], [24.5, "red"], [27.8, "pink"]],
+  "sections": [[0, "VOICE CLONING"], [4.3, "YOUR OWN VOICE"], [9.2, "JUST TEXT"], [11.0, "HOW IT WORKS"], [17.0, "USE CASES"], [21.0, "LANGUAGES"], [24.5, "PERMISSION"], [27.8, "COMMENT"]],
+  "ghosts": [[4.3, 9.2, "VOICE"], [11.0, 17.0, "CLONE"], [24.5, 27.8, "CONSENT"]],
+  "poses": [[0, "wave", "happy"], [1.27, "present", "cool"], [3.52, "point", "wow"], [4.41, "think", "wow"], [6.6, "presentL", "happy"], [9.28, "point", "happy"], [11.03, "present", "happy"], [13.5, "presentL", "neutral"], [15.5, "point", "cool"], [17.04, "present", "happy"], [19.0, "cheer", "happy"], [21.09, "stop", "sly"], [21.7, "shrug", "neutral"], [24.64, "stop", "wince"], [27.93, "wave", "happy"], [29.44, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.3, "r", 0.72], [9.2, "c", 0.78], [11.0, "c", 0.76], [17.0, "c", 0.76], [21.0, "l", 0.72], [24.5, "c", 0.78], [27.8, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.3, "@gen", "@enough", "@synth", "@access", "@quality", "@imp", "@cta"],
+  "cams": [[0, "push"], [4.3, "whipR"], [4.7, "orbitL"], [9.2, "punch"], [9.7, "push"], [11.0, "whipL"], [11.4, "rise"], [17.0, "orbitR"], [21.0, "tilt"], [24.5, "roll"], [25.0, "push"], [27.8, "punch"], [28.3, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.3, "kwAt": "@kw", "finish": "accent"},
+    {"type": "prop", "a": 4.3, "b": 9.2, "kind": "mic", "s": 1.1,
+     "labels": [{"t": "@ownvoice", "text": "Your own voice", "icon": "user", "x": 60, "y": 320}, {"t": "@gen", "text": "Narration", "icon": "play", "x": 650, "y": 540, "tone": "good"}]},
+    {"type": "cards", "a": 9.2, "b": 11.0, "layout": "row", "items": [{"t": "@text", "icon": "doc", "title": "Text in", "sub": "voice out"}]},
+    {"type": "flow", "a": 11.0, "b": 17.0, "nodes": [{"t": "@perm", "icon": "check", "label": "With permission", "tone": "good"}, {"t": "@samples", "icon": "mic", "label": "Voice samples"}, {"t": "@synth", "icon": "play", "label": "Synthetic speech"}]},
+    {"type": "icons", "a": 17.0, "b": 21.0, "items": [{"t": "@content", "icon": "video", "label": "Content"}, {"t": "@dub", "icon": "chat", "label": "Dubbing"}, {"t": "@access", "icon": "eye", "label": "Accessibility", "tone": "good"}]},
+    {"type": "prop", "a": 21.0, "b": 24.5, "kind": "globe", "s": 1.1, "labels": [{"t": "@lang", "text": "Every language?", "icon": "globe", "x": 60, "y": 330}]},
+    {"type": "stamp", "a": "@quality", "b": 24.5, "text": "QUALITY VARIES", "color": "gold", "y": 610},
+    {"type": "prop", "a": 24.5, "b": 27.8, "kind": "shield", "s": 1.0},
+    {"type": "stamp", "a": "@imp", "b": 27.8, "text": "NO IMPERSONATION", "icon": "x", "color": "bad", "y": 610},
+    {"type": "end", "a": 27.8, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

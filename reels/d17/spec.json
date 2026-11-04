@@ -1,0 +1,22 @@
+{
+  "n": 17, "title": "DOCKER", "keyword": "DOCKER", "pack": 4, "fx": "mask", "bg": "dots", "tail": 50,
+  "worlds": [[0, "blue"], [4.2, "red"], [8.6, "teal"], [11.0, "blue"], [15.9, "violet"], [19.6, "gold"], [22.3, "ember"], [26.6, "blue"]],
+  "sections": [[0, "DOCKER"], [4.2, "WORKS ON MY LAPTOP"], [8.6, "WHY DOCKER"], [11.0, "CONTAINER IMAGE"], [15.9, "SAME EVERYWHERE"], [19.6, "NOT MAGIC"], [22.3, "MANAGE IT"], [26.6, "COMMENT"]],
+  "ghosts": [[4.2, 8.6, "CRASH"], [11.0, 15.9, "IMAGE"], [22.3, 26.6, "CONFIG"]],
+  "poses": [[0, "wave", "happy"], [1.36, "present", "cool"], [3.42, "point", "wow"], [4.29, "think", "neutral"], [6.2, "shrug", "shock"], [8.7, "point", "cool"], [11.11, "present", "happy"], [14.0, "presentL", "happy"], [15.98, "present", "happy"], [17.8, "cheer", "happy"], [19.78, "stop", "sly"], [20.38, "hips", "sly"], [22.41, "point", "neutral"], [24.4, "present", "cool"], [26.66, "wave", "happy"], [28.39, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.2, "c", 0.76], [8.6, "r", 0.72], [11.0, "c", 0.76], [15.9, "c", 0.76], [19.6, "c", 0.82], [22.3, "r", 0.72], [26.6, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.2, "@crash", "@reason", "@image", "@improve", "@magic", "@manage", "@cta"],
+  "cams": [[0, "push"], [4.2, "whipR"], [4.6, "orbitL"], [8.6, "punch"], [9.1, "orbitR"], [11.0, "whipL"], [11.4, "rise"], [15.9, "tilt"], [19.6, "roll"], [20.1, "push"], [22.3, "whipR"], [22.7, "drift"], [26.6, "punch"], [27.1, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.2, "kwAt": "@kw", "finish": "accent"},
+    {"type": "compare", "a": 4.2, "b": 8.6, "lt": "@working", "rt": "@crash", "vs": "→",
+     "left": {"title": "Laptop", "icon": "laptop", "sub": "works", "tone": "good"},
+     "right": {"title": "Server", "icon": "server", "sub": "crashed", "tone": "bad"}},
+    {"type": "prop", "a": 8.6, "b": 11.0, "kind": "containers", "s": 1.05, "labels": [{"t": "@reason", "text": "Reason to learn", "icon": "star", "x": 300, "y": 640, "tone": "gold", "solid": true}]},
+    {"type": "flow", "a": 11.0, "b": 15.9, "nodes": [{"t": "@app2", "icon": "code", "label": "Your app"}, {"t": "@deps", "icon": "layers", "label": "Dependencies"}, {"t": "@image", "icon": "container", "label": "Container image", "tone": "good"}]},
+    {"type": "icons", "a": 15.9, "b": 19.6, "items": [{"t": "@envs", "icon": "laptop", "label": "Dev"}, {"t": "@consist", "icon": "server", "label": "Staging"}, {"t": "@improve", "icon": "cloud", "label": "Production", "tone": "good"}]},
+    {"type": "word", "a": 19.6, "b": 22.3, "text": "NOT MAGIC", "finish": "chrome", "size": 1.25},
+    {"type": "list", "a": 22.3, "b": 26.6, "title": "MANAGE PROPERLY", "items": [{"t": "@config", "text": "Configuration", "icon": "gear", "tone": "gold"}, {"t": "@net", "text": "Networking", "icon": "globe", "tone": "gold"}, {"t": "@secrets", "text": "Secrets", "icon": "key", "tone": "gold"}]},
+    {"type": "end", "a": 26.6, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

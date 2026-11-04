@@ -1,0 +1,29 @@
+{
+  "n": 2, "title": "AI CODING", "keyword": "CODE", "pack": 1, "tail": 45,
+  "worlds": [[0, "teal"], [4.0, "blue"], [10.0, "red"], [13.0, "violet"], [20.5, "gold"], [22.4, "red"], [24.7, "green"], [30.7, "ember"], [33.9, "blue"], [35.8, "teal"]],
+  "sections": [[0, "AI CODING"], [4.0, "3 HOURS OF WORK"], [10.0, "CHATGPT ONLY?"], [13.0, "AI CODING TOOLS"], [20.5, "THE SECRET"], [22.4, "BETTER PROMPTS"], [30.7, "REVIEW FIRST"], [33.9, "WORKFLOW"], [35.8, "COMMENT"]],
+  "ghosts": [[4.0, 9.9, "FASTER"], [13.0, 20.3, "TOOLS"], [24.7, 30.6, "CONTEXT"]],
+  "poses": [[0, "wave", "happy"], [1.14, "present", "cool"], [3.23, "point", "wow"], [4.03, "think", "neutral"], [6.88, "cheer", "wow"], [9.98, "stop", "sly"], [10.67, "shrug", "sly"], [13.0, "present", "happy"], [14.0, "presentL", "happy"], [18.0, "point", "cool"], [20.6, "hips", "sly"], [22.5, "stop", "wince"], [24.79, "present", "happy"], [26.0, "point", "happy"], [27.3, "point", "cool"], [28.73, "cheer", "happy"], [30.75, "stop", "wince"], [31.45, "idle", "neutral"], [33.93, "wave", "happy"], [35.81, "point", "cool"], [37.22, "present", "happy"]],
+  "places": [[0, "c", 0.8], [4.0, "c", 0.76], [10.0, "r", 0.72], [13.0, "c", 0.76], [20.5, "c", 0.82], [22.4, "l", 0.72], [24.7, "r", 0.72], [30.7, "c", 0.78], [33.9, "c", 0.76], [35.8, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.0, "@ai", "@enough", "@claude", "@secret", "@useful", "@deploy", "@cta"],
+  "cams": [[0, "push"], [4.0, "whipR"], [4.4, "orbitL"], [10.0, "roll"], [10.5, "push"], [13.0, "whipL"], [13.4, "orbitR"], [16.6, "tilt"], [20.5, "punch"], [21.0, "push"], [22.4, "whipR"], [22.8, "drift"], [24.7, "rise"], [30.7, "roll"], [31.2, "orbitL"], [33.9, "whipL"], [34.3, "push"], [35.8, "punch"], [36.3, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 3.95, "kwAt": "@kw"},
+    {"type": "compare", "a": 3.95, "b": 9.95, "lt": "@dev", "rt": "@ai", "vs": "→",
+     "left": {"title": "Developer", "icon": "clock", "sub": "3 hours", "tone": "bad"},
+     "right": {"title": "With AI", "icon": "bolt", "sub": "much faster", "tone": "good"}},
+    {"type": "chat", "a": 9.95, "b": 13.0, "model": "ChatGPT", "icon": "chat",
+     "q": {"t": "@gpt", "text": "Fix the bug in my project"}, "ans": {"t": "@enough", "text": "Please paste your code here..."}},
+    {"type": "cards", "a": 13.0, "b": 16.7, "layout": "row", "items": [{"t": "@claude", "icon": "terminal", "title": "Claude Code", "sub": "terminal agent"}, {"t": "@cursor", "icon": "code", "title": "Cursor", "sub": "AI editor"}]},
+    {"type": "list", "a": 16.7, "b": 20.45, "title": "YOUR PROJECT · MULTI-FILE EDIT", "items": [{"t": "@files", "text": "src/app.tsx", "icon": "doc"}, {"t": "@multi", "text": "api/users.ts", "icon": "doc"}, {"t": "@edit", "text": "db/schema.sql", "icon": "doc", "tone": "good"}]},
+    {"type": "word", "a": 20.45, "b": 22.4, "text": "SECRET", "finish": "chrome"},
+    {"type": "chat", "a": 22.4, "b": 24.7, "model": "AI Assistant", "q": {"t": "@prompt", "text": "fix it"}},
+    {"type": "stamp", "a": "@prompt+0.5", "b": 24.7, "text": "TOO SHORT", "icon": "x", "color": "bad", "y": 610},
+    {"type": "list", "a": 24.7, "b": 30.6, "title": "THE PROMPT RECIPE", "numbered": true, "items": [{"t": "@ctx", "text": "Project context"}, {"t": "@out", "text": "Expected output"}, {"t": "@tests", "text": "Tests"}]},
+    {"type": "stamp", "a": "@useful", "b": 30.6, "text": "BETTER RESULTS", "icon": "check", "color": "good", "y": 650, "rot": -5},
+    {"type": "prop", "a": 30.6, "b": 33.85, "kind": "shield", "s": 1.0,
+     "labels": [{"t": "@review", "text": "Code review", "icon": "search", "x": 60, "y": 330}, {"t": "@deploy", "text": "then deploy", "icon": "rocket", "x": 640, "y": 560, "tone": "good"}]},
+    {"type": "flow", "a": 33.85, "b": 35.75, "nodes": [{"t": "@wf", "icon": "chat", "label": "Prompt"}, {"t": "@wf+0.35", "icon": "code", "label": "AI edits"}, {"t": "@wf+0.7", "icon": "search", "label": "Review"}, {"t": "@wf+1.05", "icon": "rocket", "label": "Deploy", "tone": "good"}]},
+    {"type": "end", "a": 35.75, "b": 45, "kwAt": "@cta", "followAt": "@dm"}
+  ]
+}

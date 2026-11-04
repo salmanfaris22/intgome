@@ -1,0 +1,21 @@
+{
+  "n": 19, "title": "WEBSITE SPEED", "keyword": "FAST", "pack": 0, "fx": "marker", "bg": "beams", "tail": 50,
+  "worlds": [[0, "lime"], [4.2, "red"], [6.2, "blue"], [9.4, "ember"], [15.8, "green"], [21.6, "gold"], [27.3, "lime"]],
+  "sections": [[0, "WEBSITE SPEED"], [4.2, "SLOW SITE?"], [6.2, "CHECK FIRST"], [9.4, "WHAT SLOWS IT"], [15.8, "THE FIXES"], [21.6, "DON'T GUESS"], [27.3, "COMMENT"]],
+  "ghosts": [[4.2, 9.4, "SLOW"], [15.8, 21.6, "FAST"], [21.6, 27.3, "MEASURE"]],
+  "poses": [[0, "wave", "happy"], [1.31, "present", "cool"], [3.59, "point", "wow"], [4.38, "shrug", "wince"], [6.38, "stop", "sly"], [8.0, "point", "cool"], [9.53, "presentL", "neutral"], [10.57, "point", "wince"], [12.11, "present", "neutral"], [13.22, "presentL", "wince"], [15.98, "cheer", "happy"], [17.83, "present", "happy"], [19.5, "point", "cool"], [21.76, "hips", "sly"], [23.44, "point", "cool"], [25.5, "present", "happy"], [27.49, "wave", "happy"], [29.27, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.2, "c", 0.78], [6.2, "l", 0.72], [9.4, "r", 0.72], [15.8, "c", 0.74], [21.6, "l", 0.72], [27.3, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.2, "@check", "@makeslow", "@improve", "@noguess", "@find", "@cta"],
+  "cams": [[0, "push"], [4.2, "punch"], [4.7, "push"], [6.2, "whipL"], [6.6, "orbitR"], [9.4, "tilt"], [15.8, "whipR"], [16.2, "rise"], [21.6, "roll"], [22.1, "push"], [27.3, "punch"], [27.8, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.2, "kwAt": "@kw", "finish": "gold"},
+    {"type": "gauge", "a": 4.2, "b": 6.2, "t": "@site", "from": 0, "to": 24, "label": "PAGE SPEED"},
+    {"type": "prop", "a": 6.2, "b": 9.4, "kind": "server", "s": 0.95, "labels": [{"t": "@upgrade", "text": "Upgrade server?", "icon": "server", "x": 60, "y": 320}]},
+    {"type": "stamp", "a": "@check", "b": 9.4, "text": "CHECK THIS FIRST", "color": "gold", "y": 580},
+    {"type": "list", "a": 9.4, "b": 15.8, "title": "WHAT MAKES IT SLOW", "items": [{"t": "@img", "text": "Large images", "icon": "image", "tone": "bad"}, {"t": "@js", "text": "Unused JavaScript", "icon": "code", "tone": "bad"}, {"t": "@api", "text": "Slow APIs", "icon": "link", "tone": "bad"}, {"t": "@lat", "text": "Network latency", "icon": "globe", "tone": "bad"}]},
+    {"type": "icons", "a": 15.8, "b": 21.6, "cols": 2, "items": [{"t": "@cdn", "icon": "globe", "label": "CDN", "tone": "good"}, {"t": "@compress", "icon": "image", "label": "Compress images", "tone": "good"}, {"t": "@cache", "icon": "bolt", "label": "Caching", "tone": "good"}, {"t": "@lazy", "icon": "download", "label": "Lazy loading", "tone": "good"}]},
+    {"type": "terminal", "a": 21.6, "b": 27.3, "title": "lighthouse", "lines": [{"t": "@secret", "text": "npx lighthouse mysite.com", "kind": "cmd"}, {"t": "@lh", "text": "Performance: 42", "kind": "err"}, {"t": "@find", "text": "Bottleneck: 4 MB hero image", "kind": "ok"}]},
+    {"type": "stamp", "a": "@noguess", "b": "@lh", "text": "DON'T GUESS", "color": "gold", "y": 580},
+    {"type": "end", "a": 27.3, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

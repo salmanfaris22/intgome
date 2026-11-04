@@ -1,0 +1,20 @@
+# Day 24 — Cloud cost (keyword CLOUD)
+Day_24@day
+*Cloud_cost{2}@title [Secret]@secretkw
+keyword *CLOUD@kw
+നിങ്ങളുടെ [cloud_bill]{2}@bill
+ഓരോ മാസവും *കൂടുന്നുണ്ടോ?@rising
+ചിലപ്പോൾ പുതിയ server@newserver *വാങ്ങാതെതന്നെ@nobuy
+[cost]@cost *കുറയ്ക്കാം!@reduce
+[Unused_resources]{2}@unused *stop_ചെയ്യുക{2}@stop
+[Right-sized]{2}@right instances@inst ഉപയോഗിക്കുക
+[Caching]@cache *implement_ചെയ്യുക{2}@impl
+Suitable workloads-ന്@suit
+[serverless]@sl *evaluate_ചെയ്യുക{2}@eval
+പക്ഷേ *secret@secret
+Serverless@sl2 എല്ലായ്പ്പോഴും
+*cheaper@cheaper ആയിരിക്കണമെന്നില്ല!
+[Traffic_pattern]{2}@pattern അനുസരിച്ച്
+cost *compare_ചെയ്യണം{2}@compare
+Cloud_cost_checklist{3}@guide *വേണോ?
+[CLOUD]@cta എന്ന് comment ചെയ്യൂ

@@ -1,0 +1,27 @@
+# Day 1 — Private AI (keyword LOCAL). Caption = what the voice says.
+Day_1@day
+*Private_AI{3}@title
+[Secret]@secretkw keyword{1}
+*LOCAL@kw
+Internet_ഇല്ലാതെ{1}@nonet നിങ്ങളുടെ laptop-ൽ@laptop
+[ChatGPT]{2}@gpt പോലെ ഒരു AI{2}
+run_ചെയ്യാൻ *പറ്റുമെന്ന് അറിയാമോ?@know
+അതും monthly [subscription]@sub ഇല്ലാതെ!
+മിക്ക ആളുകൾക്കും അറിയാത്ത
+ഒരു *secret_ഉണ്ട്{1}@secret
+[Ollama]@ollama എന്നൊരു tool@tool ഉപയോഗിച്ച്
+നിങ്ങളുടെ laptop-ൽ തന്നെ
+AI_models{3}@models *run_ചെയ്യാം@run
+ഒരിക്കൽ model *download@dl ചെയ്താൽ
+Internet ഇല്ലാതെയും@offline *ഉപയോഗിക്കാം
+[PDF]{3}@pdf files{2} analyze ചെയ്യാം
+*code@code എഴുതാം
+സ്വന്തം [private_AI_assistant]{4}@asst
+വരെ *ഉണ്ടാക്കാം!
+പക്ഷേ വലിയ models-ന്@big
+കൂടുതൽ [RAM]@ram *ആവശ്യമായി_വരാം
+നിങ്ങളുടെ laptop-ൽ ഈ AI{2}
+*setup_ചെയ്യണോ?@setup
+താഴെ [LOCAL]@cta എന്ന്
+comment ചെയ്യൂ@comment
+Tool_link ഞാൻ *DM_അയക്കാം{1}@dm

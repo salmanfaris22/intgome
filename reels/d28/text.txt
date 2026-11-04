@@ -1,0 +1,21 @@
+# Day 28 — Edge AI (keyword EDGE)
+Day_28@day
+*Edge_AI{3}@title [Secret]@secretkw keyword
+*EDGE@kw
+Internet_ഇല്ലാതെ{1}@nonet ഒരു camera-യ്ക്ക്@camera
+[objects]@objects *തിരിച്ചറിയാൻ@recognize കഴിഞ്ഞാലോ?
+അതും cloud_server-ലേക്ക്{2}@cloud
+*video_അയക്കാതെ!{1}@novideo
+[Edge_AI]{3}@edge ഉപയോഗിച്ച്
+AI_models{3}@models *local_devices-ൽ{2}@local
+run ചെയ്യാം@run
+[Smart_cameras]{2}@cams [Mobile_devices]{2}@mobile
+[Industrial_sensors]{2}@sensors എന്നിവയിൽ
+ഇത് *ഉപയോഗിക്കാം@use
+ഇതിലെ *secret@secret
+ചില applications-ൽ@apps
+*network_latency{2}@latency കുറയ്ക്കാനും
+[privacy]@privacy *മെച്ചപ്പെടുത്താനും@improve കഴിയും
+പക്ഷേ *hardware_limitation{2}@hw ശ്രദ്ധിക്കണം!@careful
+Edge_AI_guide{4}@guide *വേണോ?
+[EDGE]@cta എന്ന് comment ചെയ്യൂ

@@ -1,0 +1,22 @@
+{
+  "n": 6, "title": "PWA", "keyword": "PWA", "pack": 5, "tail": 45,
+  "worlds": [[0, "teal"], [4.4, "blue"], [8.1, "red"], [10.95, "violet"], [16.6, "green"], [21.2, "gold"], [25.4, "red"], [30.0, "blue"], [32.3, "teal"]],
+  "sections": [[0, "PWA"], [4.4, "INSTALL A WEBSITE"], [8.1, "NO SEPARATE APP"], [10.95, "PROGRESSIVE WEB APP"], [16.6, "FEATURES"], [21.2, "THE SECRET"], [25.4, "THE LIMITS"], [30.0, "REACT TO PWA"], [32.3, "COMMENT"]],
+  "ghosts": [[4.4, 8.1, "INSTALL"], [16.6, 21.2, "OFFLINE"], [25.4, 30.0, "NATIVE"]],
+  "poses": [[0, "wave", "happy"], [1.2, "present", "cool"], [3.31, "point", "wow"], [4.49, "think", "wow"], [6.4, "presentL", "happy"], [8.18, "stop", "sly"], [11.07, "cheer", "happy"], [12.91, "present", "happy"], [14.5, "point", "cool"], [16.86, "presentL", "happy"], [18.64, "present", "happy"], [21.37, "hips", "sly"], [22.52, "point", "cool"], [25.49, "stop", "wince"], [27.5, "shrug", "neutral"], [30.14, "wave", "happy"], [32.35, "point", "cool"], [34.18, "present", "happy"]],
+  "places": [[0, "c", 0.8], [4.4, "l", 0.72], [8.1, "c", 0.78], [10.95, "c", 0.76], [16.6, "c", 0.76], [21.2, "r", 0.72], [25.4, "l", 0.72], [30.0, "r", 0.72], [32.3, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.4, "@noneed", "@pwa", "@offline", "@secret", "@notall", "@cta"],
+  "cams": [[0, "push"], [4.4, "whipR"], [4.8, "orbitL"], [8.1, "punch"], [8.6, "push"], [10.95, "whipL"], [11.3, "rise"], [16.6, "orbitR"], [21.2, "tilt"], [25.4, "roll"], [25.9, "push"], [30.0, "whipR"], [30.4, "orbitL"], [32.3, "punch"], [32.8, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.4, "kwAt": "@kw", "finish": "accent"},
+    {"type": "prop", "a": 4.4, "b": 10.95, "kind": "phone", "s": 1.05, "screen": {"icon": "globe", "title": "mysite.com"},
+     "labels": [{"t": "@site", "text": "Your website", "icon": "globe", "x": 60, "y": 320}, {"t": "@install", "text": "Install", "icon": "download", "x": 660, "y": 520, "tone": "good", "solid": true}]},
+    {"type": "stamp", "a": "@noneed", "b": 10.95, "text": "NO SEPARATE APP", "color": "bad", "y": 610},
+    {"type": "flow", "a": 10.95, "b": 16.6, "nodes": [{"t": "@pwa", "icon": "globe", "label": "Website"}, {"t": "@pwa2", "icon": "layers", "label": "PWA"}, {"t": "@installable", "icon": "phone", "label": "Installs like an app", "tone": "good"}]},
+    {"type": "icons", "a": 16.6, "b": 21.2, "items": [{"t": "@icon", "icon": "phone", "label": "Home screen icon"}, {"t": "@cache", "icon": "bolt", "label": "Caching"}, {"t": "@offline", "icon": "wifiOff", "label": "Offline mode", "tone": "good"}]},
+    {"type": "code", "a": 21.2, "b": 25.4, "title": "manifest.json", "lines": [{"t": "@existing", "text": "{"}, {"t": "@existing+0.2", "text": "  \"name\": \"My App\","}, {"t": "@webtech", "text": "  \"display\": \"standalone\","}, {"t": "@webtech+0.5", "text": "  \"start_url\": \"/\""}, {"t": "@webtech+0.9", "text": "}"}]},
+    {"type": "list", "a": 25.4, "b": 30.0, "title": "THE LIMITS", "items": [{"t": "@native", "text": "Some native features", "icon": "phone", "tone": "bad"}, {"t": "@browsers", "text": "Not in every browser", "icon": "globe", "tone": "bad"}]},
+    {"type": "prop", "a": 30.0, "b": 32.3, "kind": "phone", "s": 1.0, "screen": {"icon": "code", "title": "React → PWA"}, "turn": 0.5},
+    {"type": "end", "a": 32.3, "b": 45, "kwAt": "@cta", "followAt": "@dm"}
+  ]
+}

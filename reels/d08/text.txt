@@ -1,0 +1,21 @@
+# Day 8 — AI automation (keyword AUTO)
+Day_8@day
+*AI_automation{3}@title [Secret]@secretkw keyword{1}
+*AUTO@kw
+നിങ്ങൾ *ഉറങ്ങുമ്പോഴും@sleep
+നിങ്ങളുടെ business-ലെ@biz
+[repetitive_tasks]{2}@tasks *automate_ചെയ്താലോ?{2}@auto
+Customer [enquiry]@enq വരുന്നു
+AI{2}@ai അത് *summarize@sum ചെയ്യുന്നു
+[CRM]{3}@crm update ചെയ്യുന്നു
+Team-ന്@team *notification@notif അയക്കുന്നു
+ഇതെല്ലാം ഒരു *workflow@wf
+[n8n]{3}@n8n പോലുള്ള automation_tools{2}@tools ഉപയോഗിച്ച്
+Apps-ഉം@apps AI_services-ഉം{3}@svc *connect_ചെയ്യാം{2}@connect
+പക്ഷേ@but
+*Customer-facing{2}@cf actions-ന്
+[approval_step]{2}@approve ചേർക്കുന്നത്
+*നല്ലതാണ്@good
+Complete workflow@wf2 *വേണോ?
+[AUTO]@cta എന്ന് comment ചെയ്യൂ
+Guide *DM_അയക്കാം{2}@dm

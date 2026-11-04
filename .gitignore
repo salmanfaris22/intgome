@@ -1,0 +1,8 @@
+.DS_Store
+node_modules/
+engine/out/
+tools/venv/
+tools/hf/
+tools/models/
+__pycache__/
+*.pyc

@@ -1,0 +1,21 @@
+# Day 22 — Deepfakes (keyword FAKE)
+Day_22@day
+*Deepfakes{2}@title [Secret]@secretkw
+keyword *FAKE@kw
+നിങ്ങൾ കാണുന്ന ഒരു [viral_video]{2}@viral പോലും
+പൂർണ്ണമായും *AI_generated{3}@aigen ആണെങ്കിലോ?
+അത് [real]@real ആണെന്ന് *വിശ്വസിച്ചാലോ?@believe
+[Deepfake]@df technology ഉപയോഗിച്ച്
+*synthetic_faces{2}@faces
+[Voices]@voices [Lip-sync]@lips എന്നിവ
+*create_ചെയ്യാം{2}@create
+പക്ഷേ fake_content{2}@fake തിരിച്ചറിയാൻ
+ചില *verification_methods{2}@methods ഉണ്ട്
+[Original_source]{2}@source *പരിശോധിക്കുക@check1
+[Independent_reporting]{2}@indep *compare_ചെയ്യുക{2}@compare
+[Content_provenance]{2}@prov information
+ലഭ്യമാണോ എന്ന് *നോക്കുക@look
+AI_detector{3}@detector മാത്രം
+*final_proof-അല്ല!{2}@notproof
+Deepfake_verification_guide{3}@guide *വേണോ?
+[FAKE]@cta എന്ന് comment ചെയ്യൂ

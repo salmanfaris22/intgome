@@ -1,0 +1,24 @@
+# Day 7 — MCP (keyword MCP)
+Day_7@day
+*MCP@title [Secret]@secretkw keyword{1}
+*MCP@kw
+നിങ്ങളുടെ AI-ക്ക്{3}@ai [GitHub]@gh
+[Database]@db files@files എല്ലാം
+*connect@connect ചെയ്യാൻ കഴിഞ്ഞാലോ?
+അതിനൊരു *standard@standard ഉണ്ട്
+[MCP]@mcp
+*Model_Context_Protocol{3}@full
+AI_applications-നെ{3}@apps
+[external_tools-ഉം]{2}@tools data_sources-മായി{2}@data
+*connect@connect2 ചെയ്യാൻ ഇത് സഹായിക്കുന്നു
+ഉദാഹരണത്തിന്
+Project [issues]@issues വായിച്ച്
+*report@report തയ്യാറാക്കാൻ
+AI-ക്ക്{3} [tools]@give നൽകാം
+ഇതിലെ *powerful_part{2}@power
+ഓരോ integration-നും@integ
+*completely_different{2}@diff interface@iface
+design ചെയ്യേണ്ട ആവശ്യം *കുറയ്ക്കാം{2}@less
+പക്ഷേ [access_permissions]{2}@perm *നിയന്ത്രിക്കണം!@control
+MCP tutorial@tut *വേണോ?
+[MCP]@cta എന്ന് comment ചെയ്യൂ

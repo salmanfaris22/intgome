@@ -1,0 +1,23 @@
+# Day 15 — AI code security (keyword SECURE)
+Day_15@day
+*AI_code_security{4}@title
+[Secret]@secretkw keyword
+*SECURE@kw
+AI{2}@ai generate ചെയ്ത code@code
+നേരിട്ട് [production-ൽ]@prod
+*deploy_ചെയ്യുന്നുണ്ടോ?{2}@deploy
+അതിൽ [security_vulnerability]{2}@vuln *ഉണ്ടെങ്കിലോ?@if
+AI_generated{3}@aigen code-ലും
+[SQL_injection]{4}@sqli
+[Insecure_authentication]{2}@auth
+[Exposed_secrets]{2}@secrets പോലുള്ള
+*issues@issues ഉണ്ടാകാം
+അതുകൊണ്ട് developer-ന്റെ@dev ജോലി
+code generate ചെയ്യുന്നതിൽ *തീരുന്നില്ല!@notend
+[Review]@review ചെയ്യണം
+[Test]@test ചെയ്യണം
+[Security_scan]{2}@scan ചെയ്യണം
+പ്രത്യേകിച്ച് *user_data{2}@data
+*Payments@pay authentication@auth2 എന്നിവയിൽ
+Security_checklist{2}@check *വേണോ?
+[SECURE]@cta എന്ന് comment ചെയ്യൂ

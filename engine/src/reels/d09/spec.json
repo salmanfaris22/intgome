@@ -1,0 +1,24 @@
+{
+  "n": 9, "title": "FREE HOSTING", "keyword": "FREE", "pack": 2, "fx": "marker", "bg": "grid", "tail": 50,
+  "worlds": [[0, "lime"], [4.4, "teal"], [10.4, "violet"], [15.4, "blue"], [19.5, "gold"], [21.6, "ember"], [26.6, "red"], [30.0, "lime"]],
+  "sections": [[0, "FREE HOSTING"], [4.4, "NO HOSTING BILL"], [10.4, "PLATFORMS"], [15.4, "GOOD FOR"], [19.5, "THE SECRET"], [21.6, "CHECK LIMITS"], [26.6, "PRODUCTION"], [30.0, "COMMENT"]],
+  "ghosts": [[4.4, 10.4, "FREE"], [10.4, 15.4, "DEPLOY"], [21.6, 26.6, "LIMITS"]],
+  "poses": [[0, "wave", "happy"], [1.41, "present", "cool"], [3.72, "point", "wow"], [4.68, "think", "wow"], [6.5, "presentL", "happy"], [8.19, "hips", "sly"], [10.51, "present", "happy"], [12.3, "point", "happy"], [13.6, "presentL", "cool"], [15.53, "present", "happy"], [17.3, "point", "happy"], [19.59, "hips", "sly"], [21.73, "point", "neutral"], [23.96, "presentL", "neutral"], [24.68, "stop", "sly"], [26.84, "think", "neutral"], [28.48, "point", "cool"], [30.22, "wave", "happy"], [32.0, "point", "cool"]],
+  "places": [[0, "c", 0.8], [4.4, "r", 0.72], [10.4, "c", 0.76], [15.4, "c", 0.76], [19.5, "l", 0.74], [21.6, "r", 0.72], [26.6, "c", 0.76], [30.0, "c", 0.8]],
+  "hits": [0.1, "@kw", 4.4, "@nopay", "@possible", "@cf", "@secret", "@comm", "@paid", "@cta"],
+  "cams": [[0, "push"], [4.4, "whipL"], [4.8, "orbitR"], [10.4, "whipR"], [10.8, "rise"], [15.4, "orbitL"], [19.5, "punch"], [20.0, "push"], [21.6, "tilt"], [26.6, "roll"], [27.1, "push"], [30.0, "punch"], [30.5, "pull"]],
+  "scenes": [
+    {"type": "hook", "a": 0, "b": 4.4, "kwAt": "@kw", "finish": "gold"},
+    {"type": "prop", "a": 4.4, "b": 10.4, "kind": "globe", "s": 1.15,
+     "labels": [{"t": "@nopay", "text": "₹0 hosting", "icon": "rupee", "x": 60, "y": 320, "tone": "good"}, {"t": "@live", "text": "Website live", "icon": "rocket", "x": 640, "y": 540}]},
+    {"type": "stamp", "a": "@possible", "b": 10.4, "text": "FOR SOME PROJECTS", "color": "gold", "y": 610, "rot": -6},
+    {"type": "cards", "a": 10.4, "b": 15.4, "layout": "row", "items": [{"t": "@vercel", "icon": "play", "title": "Vercel", "sub": "free tier"}, {"t": "@netlify", "icon": "layers", "title": "Netlify", "sub": "free tier"}, {"t": "@cf", "icon": "cloud", "title": "Cloudflare", "sub": "free tier"}]},
+    {"type": "icons", "a": 15.4, "b": 19.5, "items": [{"t": "@port", "icon": "user", "label": "Portfolio"}, {"t": "@landing", "icon": "doc", "label": "Landing page"}, {"t": "@proto", "icon": "wand", "label": "Prototype", "tone": "good"}]},
+    {"type": "prop", "a": 19.5, "b": 21.6, "kind": "magnifier", "s": 1.1, "labels": [{"t": "@secret", "text": "The secret", "icon": "key", "x": 330, "y": 640, "tone": "gold", "solid": true}]},
+    {"type": "list", "a": 21.6, "b": 26.6, "title": "CHECK THE FREE PLAN", "items": [{"t": "@bw", "text": "Bandwidth", "icon": "graph", "tone": "gold"}, {"t": "@compute", "text": "Compute", "icon": "chip", "tone": "gold"}, {"t": "@comm", "text": "Commercial use rules", "icon": "money", "tone": "gold"}]},
+    {"type": "compare", "a": 26.6, "b": 30.0, "lt": "@heavy", "rt": "@paid", "vs": "VS",
+     "left": {"title": "Free tier", "icon": "rupee", "sub": "small projects", "tone": "good"},
+     "right": {"title": "Paid hosting", "icon": "server", "sub": "heavy production", "tone": "gold"}},
+    {"type": "end", "a": 30.0, "b": 45, "kwAt": "@cta", "followAt": "@cta+0.9"}
+  ]
+}

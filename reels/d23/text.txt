@@ -1,0 +1,20 @@
+# Day 23 — AI backend (keyword BACKEND)
+Day_23@day
+*AI_backend{3}@title [Secret]@secretkw
+keyword *BACKEND@kw
+[Backend]{2}@be API@api build ചെയ്യാൻ
+*ദിവസങ്ങൾ@days എടുക്കുന്നുണ്ടോ?
+AI{2}@ai ഉപയോഗിച്ച് development_workflow{2}@wf
+*വേഗത്തിലാക്കാം!@faster
+AI_coding_agents{4}@agents ഉപയോഗിച്ച്
+[Routes]@routes [Controllers]@ctrl [Database_models]{2}@models
+[Tests]@tests എന്നിവയുടെ code *generate_ചെയ്യാം{2}@gen
+പക്ഷേ *secret@secret എന്താണെന്ന് അറിയാമോ?
+*Detailed_requirements{2}@req കൊടുക്കുക
+[Authentication_rules]{2}@auth
+[Validation]@valid *expected_responses{2}@resp
+[Edge_cases]{2}@edge എന്നിവ *വ്യക്തമാക്കണം@specify
+*Security-critical{2}@sec code
+developer@dev *review_ചെയ്യണം!{2}@review
+AI_backend_workflow{4}@guide *വേണോ?
+[BACKEND]{2}@cta എന്ന് comment ചെയ്യൂ
