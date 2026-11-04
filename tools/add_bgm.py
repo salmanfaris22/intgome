@@ -5,7 +5,7 @@ import os, glob, subprocess, sys, shutil, json
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 BGM = f'{ROOT}/source/bgm/bgm_music.wav'
 DESK = os.path.expanduser('~/Desktop/30-day-series')
-BGM_DB = float(os.environ.get('BGM_DB', '-31'))   # target integrated LUFS of the music alone
+BGM_DB = float(os.environ.get('BGM_DB', '-37'))   # target integrated LUFS of the music alone
 for n in map(int, sys.argv[1:]):
     src = glob.glob(f'{ROOT}/exports/day{n:02d}_*_v2.mp4')
     if not src: print(n, 'no v2'); continue
